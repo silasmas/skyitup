@@ -1,6 +1,6 @@
 <?php
 
 return [
-
-    'm1' => 'Accueil',
+    'welcome' => 'Bienvenue',
+    'llc' => 'SARL',
 ];

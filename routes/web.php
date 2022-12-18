@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,18 +13,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
  */
-
-Route::get('/', function () {
-    return view('pages/home');
-});
-
 // Language
-Route::get('/language/{locale}', function ($locale){
-
-        app()->setLocale($locale);
-        session()->put('locale', $locale);
-
-        return redirect()->back();
-
-}
-)->name('change_language');
+Route::get('/language/{locale}', [HomeController::class, 'changeLanguage'])->name('change_language');
+// Other links
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/service', [HomeController::class, 'service'])->name('service');
+Route::get('/realization', [HomeController::class, 'realization'])->name('realization');
