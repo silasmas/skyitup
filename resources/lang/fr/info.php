@@ -15,10 +15,10 @@ return [
     'company_address' => '25, Avenue de l\'Equateur, Commune de la Gombe Immeuble MK Tower, 2e niveau, local 202',
 
     // Menu
-    'home' => 'Accueil',
-    'about' => 'A propos',
-    'service' => 'Services',
-    'realization' => 'Réalisations',
+    'menu_home' => 'Accueil',
+    'menu_about' => 'A propos',
+    'menu_service' => 'Services',
+    'menu_realization' => 'Réalisations',
 
     // Footer
     'quick_links' => 'Liens rapide',
