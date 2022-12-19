@@ -270,6 +270,7 @@ a:hover {
   position: fixed;
   top: 0;
   background: #fff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
 }
 
 .sticky-header .main-menu li a,
@@ -2654,25 +2655,31 @@ h4.comment-title {
   font-size: 1.3rem;
 }
 
+#ourValues .card .card-body .fa {
+  vertical-align: -3px;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+
 /* Colors */
 .yellow-text-1 {
-  color: #fbbd38;
+  color: #fbbd38!important;
 }
 
 .yellow-text-2 {
-  color: #f7a426;
+  color: #f7a426!important;
 }
 
 .red-text {
-  color: #d83c2a;
+  color: #d83c2a!important;
 }
 
 .green-text-1 {
-  color: #2a979e;
+  color: #2a979e!important;
 }
 
 .green-text-2 {
-  color: #155459;
+  color: #155459!important;
 }
 
 /*============================================

@@ -150,7 +150,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xl-8 col-lg-6 d-none d-lg-block">
+                            <div class="col-xl-9 col-lg-8 d-none d-lg-block">
                                 <div class="main-menu">
                                     <nav>
                                         <ul id="m_menu_active">
@@ -160,14 +160,6 @@
                                             <li><a href="{{ route('realization') }}">@lang('info.realization')</a></li>
                                         </ul>
                                     </nav>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-1 col-lg-2 col-sm-3">
-                                <div class="hb-right">
-                                    <ul>
-                                        <li class="search_btn"><i class="fa fa-search"></i></li>
-                                    </ul>
                                 </div>
                             </div>
 

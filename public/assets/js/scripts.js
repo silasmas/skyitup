@@ -25,9 +25,10 @@
             mainHeader = $('.header-bottom');
 
         if (scroll > 50) {
-            mainHeader.addClass("sticky-header");
+            mainHeader.addClass('sticky-header').addClass('z-depth-1');
+
         } else {
-            mainHeader.removeClass("sticky-header");
+            mainHeader.removeClass('sticky-header').removeClass('z-depth-1');
         }
     });
 
