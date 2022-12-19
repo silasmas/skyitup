@@ -186,7 +186,7 @@
         <!-- team area end -->
 
         <!-- contact info area start -->
-        <div class="contact-info pt--120">
+        <div class="contact-info ptb--100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -195,7 +195,7 @@
                             <h1 class="h1-responsive d-inline-block ml-3 mb-5">@lang('info.home.contact_title')</h1>
                             <h5 class="mb-5 text-muted font-weight-normal">@lang('info.home.contact_description')</h5>
                             <ul class="text-center">
-                                <li style="font-size: 2.5rem;">(+243) 821 790 718</li>
+                                <li style="font-size: 2.5rem; color: black;">(+243) 821 790 718</li>
                             </ul>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
         <!-- contact info area end -->
 
         <!-- contact form area start -->
-        <div class="contact-form-area pt--40 pb--120">
+        {{-- <div class="contact-form-area pt--40 pb--120">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
@@ -238,7 +238,7 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- contact form area end -->
 
         <!-- testimonial area start -->
