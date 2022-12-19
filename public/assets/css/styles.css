@@ -269,7 +269,17 @@ a:hover {
 .sticky-header {
   position: fixed;
   top: 0;
-  background: #222;
+  background: #fff;
+}
+
+.sticky-header .main-menu li a,
+.sticky-header .hb-right li {
+  color: #000;
+}
+
+.sticky-header .header-bottom-inner {
+  color: #000;
+  border-bottom: none;
 }
 
 .header-bottom-inner {
