@@ -3,6 +3,8 @@ Theme Name: Edification
 Author: Jsoft
 Version: 1.0
 Description: Responsive Education HTML5 Template
+
+Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b2770737/
 -----------------------------------------------------------------------------------
  CSS INDEX===================
     ##== Default Css
@@ -29,6 +31,7 @@ Description: Responsive Education HTML5 Template
     9. Blog Details
    10. 404
    11. Color Switcher
+   12. Custom style
  -----------------------------------------------------------------------------------*/
 
 /*============================================
@@ -51,7 +54,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: #252525;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", serif;
 }
 
 h1 a,
@@ -544,7 +547,7 @@ a:hover {
 }
 
 .slider-content h1 {
-  font-size: 52px;
+  font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 70px;
@@ -564,9 +567,8 @@ a:hover {
 }
 
 .slider-content p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  font-style: italic;
 }
 
 /*animation*/
@@ -2616,3 +2618,53 @@ h4.comment-title {
   margin-right: 8px;
   width: auto;
 }
+
+/*============================================
+    12. Custom style
+*=============================================*/
+
+/* Miscellaneous */
+#header .header-bottom .header-bottom-inner .logo a img,
+.footer-top .widget-company .logo img {
+  width: 6rem;
+}
+
+#header .header-bottom .header-bottom-inner .logo a p,
+.footer-top .widget-company .logo p {
+  vertical-align: middle;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.footer-top .widget-company .logo h5 {
+  font-weight: 300;
+}
+
+.footer-top .widget-opening input {
+  font-size: 1.3rem;
+}
+
+/* Colors */
+.yellow-text-1 {
+  color: #fbbd38;
+}
+
+.yellow-text-2 {
+  color: #f7a426;
+}
+
+.red-text {
+  color: #d83c2a;
+}
+
+.green-text-1 {
+  color: #2a979e;
+}
+
+.green-text-2 {
+  color: #155459;
+}
+
+/*============================================
+    END Custom style
+*=============================================*/
