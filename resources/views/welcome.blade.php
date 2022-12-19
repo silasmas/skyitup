@@ -9,10 +9,10 @@
                     <div class="row">
                         <div class="col-lg-7 col-md-9">
                             <div class="slider-content">
-                                <h3>Consulting</h3>
-                                <h1><span class="primary-color">Approche axée sur</span> l'objectivité et les résultats</h1>
-                                <p>SkyITup offre de véritables solutions de travail en matière de conseil en technologie digitale.</p>
-                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">Contactez-nous</a>
+                                <h3>@lang('info.slide1_title')</h3>
+                                <h1><span class="primary-color">@lang('info.slide1_subtitle1')</span> @lang('info.slide1_subtitle2')</h1>
+                                <p>@lang('info.slide1_content')</p>
+                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">@lang('info.slide1_button')</a>
                             </div>
                         </div>
                     </div>
@@ -24,10 +24,10 @@
                     <div class="row">
                         <div class="col-lg-7 col-md-9">
                             <div class="slider-content">
-                                <h3>Computing</h3>
-                                <h1><span class="primary-color">Solutions numériques</span> et logiciels</h1>
-                                <p>Implémentation des solutions logicielles et organisationnelles dédiées aux activités de nos clients.</p>
-                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">Contactez-nous</a>
+                                <h3>@lang('info.slide2_title')</h3>
+                                <h1><span class="primary-color">@lang('info.slide2_subtitle1')</span> @lang('info.slide2_subtitle2')</h1>
+                                <p>@lang('info.slide2_content')</p>
+                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">@lang('info.slide2_button')</a>
                             </div>
                         </div>
                     </div>
@@ -39,10 +39,10 @@
                     <div class="row">
                         <div class="col-lg-7 col-md-9">
                             <div class="slider-content">
-                                <h3>Maintenance</h3>
-                                <h1><span class="primary-color">Services</span> Matériels</h1>
-                                <p>Adopter notre processus d'approvisionnement à vos besoins et économiser du temps et de l'argent.</p>
-                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">Projets</a>
+                                <h3>@lang('info.slide3_title')</h3>
+                                <h1><span class="primary-color">@lang('info.slide3_subtitle1')</span> @lang('info.slide3_subtitle2')</h1>
+                                <p>@lang('info.slide3_content')</p>
+                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">@lang('info.slide3_button')</a>
                             </div>
                         </div>
                     </div>
@@ -54,10 +54,10 @@
                     <div class="row">
                         <div class="col-lg-7 col-md-9">
                             <div class="slider-content">
-                                <h3>Safe keeping</h3>
-                                <h1><span class="primary-color">Solution de </span> sécurité</h1>
-                                <p>Nous sommes de leaders éprouvés en matière de solutions de sécurité pour les petites et moyennes entreprises.</p>
-                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">Contactez-nous</a>
+                                <h3>@lang('info.slide4_title')</h3>
+                                <h1><span class="primary-color">@lang('info.slide4_subtitle1')</span> @lang('info.slide4_subtitle2')</h1>
+                                <p>@lang('info.slide4_content')</p>
+                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">@lang('info.slide4_button')</a>
                             </div>
                         </div>
                     </div>
@@ -69,10 +69,10 @@
                     <div class="row">
                         <div class="col-lg-7 col-md-9">
                             <div class="slider-content">
-                                <h3>Quick support</h3>
-                                <h1><span class="primary-color">Service</span> d'assistance</h1>
-                                <p>Nos services d'assistance informatique garantissent que vos systèmes et applications informatiques critiques soient toujours opérationnels et que tous les problèmes techniques soient résolus rapidement et avec précision par des techniciens compétents et serviables.</p>
-                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">En savoir plus</a>
+                                <h3>@lang('info.slide5_title')</h3>
+                                <h1><span class="primary-color">@lang('info.slide5_subtitle1')</span> @lang('info.slide5_subtitle2')</h1>
+                                <p>@lang('info.slide5_content')</p>
+                                <a class="btn btn-primary btn-round btn-lg mt-5" href="#">@lang('info.slide4_button')</a>
                             </div>
                         </div>
                     </div>
@@ -87,8 +87,8 @@
                 <div class="row text-center">
                     <div class="col-12">
                         <div class="section-title">
-                            <span class="text-uppercase">A propos</span>
-                            <h2><span class="yellow-text-2">Mission</span> | <span class="red-text">Ambitions</span> | <span class="green-text-1">Valeurs</span></h2>
+                            <span class="text-uppercase">@lang('info.home.about_title')</span>
+                            <h2><span class="yellow-text-2">@lang('info.home.about_mission')</span> | <span class="red-text">@lang('info.home.about_ambitions')</span> | <span class="green-text-1">@lang('info.home.about_values')</span></h2>
                         </div>
                     </div>
                 </div>
@@ -99,10 +99,10 @@
                             <div class="card-body p-25">
                                 <div class="course-meta-title mb-4">
                                     <div class="course-meta-text">
-                                        <h4 class="h4-responsive font-weight-bold text-uppercase">Notre mission</h4>
+                                        <h4 class="h4-responsive font-weight-bold text-uppercase">@lang('info.home.about_mission_title')</h4>
                                     </div>
                                 </div>
-                                <p class="m-0">Notre mission est de dotée de capacité à toute personne ou organisation de produire plus dans un temps record.</p>
+                                <p class="m-0">@lang('info.home.about_mission_description')</p>
                             </div>
                         </div>
                     </div>
@@ -112,10 +112,10 @@
                             <div class="card-body p-25">
                                 <div class="course-meta-title mb-4">
                                     <div class="course-meta-text">
-                                        <h4 class="h4-responsive font-weight-bold text-uppercase">Nos ambitions</h4>
+                                        <h4 class="h4-responsive font-weight-bold text-uppercase">@lang('info.home.about_ambitions_title')</h4>
                                     </div>
                                 </div>
-                                <p class="m-0">SKYITUP SARL à l’ambition de continuer dans l’amélioration de l’environnement, du social, de l’économie de la population et de la gouvernance en offrant des solutions de transformation digitale qui permettent l’élévation de la qualité socio-économique du monde et de la population.</p>
+                                <p class="m-0">@lang('info.home.about_ambitions_description')</p>
                             </div>
                         </div>
                     </div>
@@ -125,13 +125,13 @@
                             <div class="card-body p-25">
                                 <div class="course-meta-title mb-4">
                                     <div class="course-meta-text">
-                                        <h4 class="h4-responsive font-weight-bold text-uppercase">Nos valeurs</h4>
+                                        <h4 class="h4-responsive font-weight-bold text-uppercase">@lang('info.home.about_values_title')</h4>
                                     </div>
                                 </div>
-                                <p class="m-1"><i class="fa fa-angle-right red-text"></i> Intégrité</p>
-                                <p class="m-1"><i class="fa fa-angle-right red-text"></i> Respect</p>
-                                <p class="m-1"><i class="fa fa-angle-right red-text"></i> Professionnalisme</p>
-                                <p class="m-0"><i class="fa fa-angle-right red-text"></i> Fiabilité</p>
+                                <p class="m-1"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item1')</p>
+                                <p class="m-1"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item2')</p>
+                                <p class="m-1"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item3')</p>
+                                <p class="m-0"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item4')</p>
                             </div>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title text-center">
-                            <span class="text-uppercase">Notre équipe</span>
-                            <h2 class="green-text-1">Leadership</h2>
+                            <span class="text-uppercase">@lang('info.home.team_title')</span>
+                            <h2 class="green-text-1">@lang('info.home.team_subtitle')</h2>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                             <img src="{{ asset('assets/img/team/member-1.jpg') }}" alt="image">
                             <div class="card-body text-center p-25">
                                 <h3 class="card-title mb-4"><a href="teacher-details.html">Willy NGANA</a></h3>
-                                <span class="primary-color d-block mb-3">Chief Executive Officer</span>
+                                <span class="primary-color d-block mb-3">@lang('info.home.team_function.c_e_o')</span>
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
@@ -172,7 +172,7 @@
                             <img src="{{ asset('assets/img/team/member-2.jpg') }}" alt="image">
                             <div class="card-body text-center p-25">
                                 <h3 class="card-title mb-4"><a href="teacher-details.html">René KUNGANA</a></h3>
-                                <span class="primary-color d-block mb-3">Chief Operations Officer</span>
+                                <span class="primary-color d-block mb-3">@lang('info.home.team_function.c_o_o')</span>
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
@@ -192,8 +192,8 @@
                     <div class="col-lg-4">
                         <div class="cnt-info" style="border-top: 5px solid #d83c2a;">
                             <h1 class="h1-responsive d-inline-block px-4 bg-danger m-0"><i class="fa fa-phone mt-2 mb-0 text-white"></i></h1>
-                            <h1 class="h1-responsive d-inline-block ml-3 mb-5">Contact</h1>
-                            <h5 class="mb-5 text-muted font-weight-normal">Appelez-nous directement pour une assistance ou pour d'autres informations</h5>
+                            <h1 class="h1-responsive d-inline-block ml-3 mb-5">@lang('info.home.contact_title')</h1>
+                            <h5 class="mb-5 text-muted font-weight-normal">@lang('info.home.contact_description')</h5>
                             <ul class="text-center">
                                 <li style="font-size: 2.5rem;">(+243) 821 790 718</li>
                             </ul>
@@ -215,7 +215,7 @@
                 <div class="row">
                     <div class="col-md-10">
                         <div class="cnt-title text-sm-left">
-                            <h4 class="h4-responsive m-0">Obtenir un devis gratuit et rapide</h4>
+                            <h4 class="h4-responsive m-0">@lang('info.home.contact_form.title')</h4>
                         </div>
                     </div>
                 </div>
@@ -223,16 +223,16 @@
                     <form>
                         <div class="row">
                             <div class="col-md-4">
-                                <input type="text" name="name" placeholder="Votre nom">
+                                <input type="text" name="name" placeholder="@lang('info.home.contact_form.name')">
                             </div>
                             <div class="col-md-4">
-                                <input type="email" name="email" placeholder="Adresse Email">
+                                <input type="email" name="email" placeholder="@lang('info.home.contact_form.email')">
                             </div>
                             <div class="col-md-4">
-                                <input type="text" name="phone" placeholder="Téléphone">
+                                <input type="text" name="phone" placeholder="@lang('info.home.contact_form.phone')">
                             </div>
                             <div class="col-12">
-                                <button type="submit">Obtenir le devis</button>
+                                <button type="submit">@lang('info.home.contact_form.button')</button>
                             </div>
                         </div>
                     </form>
@@ -247,30 +247,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="section-title sec-style-two">
+                            <span class="text-uppercase primary-color mb-0">@lang('info.home.testimonial_title')</span>
+                            <h2>@lang('info.home.testimonial_subtitle')</h2>
+                        </div>
+
                         <div class="tst-carousel owl-carousel">
                             <div class="testimonial-content pb--40">
-                                <div class="section-title sec-style-two">
-                                    <span class="text-uppercase primary-color mb-0">Les clients satisfaits</span>
-                                    <h2>Témoignages</h2>
-                                </div>
                                 <h3>&laquo; Vous devez profiter de la vie. Toujours aimez, les personnespositives penser. &raquo;</h3>
                                 <h4>Kawsar Ahhamed</h4>
                                 <span>App Developer</span>
                             </div>
                             <div class="testimonial-content pb--40">
-                                <div class="section-title sec-style-two">
-                                    <span class="text-uppercase primary-color mb-0">happy students</span>
-                                    <h2>Testimonial</h2>
-                                </div>
                                 <h3>&laquo; Vous devez profiter de la vie. Toujours aimez, les personnespositives penser. &raquo;</h3>
                                 <h4>Kawsar Ahhamed</h4>
                                 <span>App Developer</span>
                             </div>
                             <div class="testimonial-content pb--40">
-                                <div class="section-title sec-style-two">
-                                    <span class="text-uppercase primary-color mb-0">happy students</span>
-                                    <h2>Testimonial</h2>
-                                </div>
                                 <h3>&laquo; Vous devez profiter de la vie. Toujours aimez, les personnespositives penser. &raquo;</h3>
                                 <h4>Kawsar Ahhamed</h4>
                                 <span>App Developer</span>
@@ -287,7 +280,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title sec-style-two">
-                            <h2 class="red-text m-0">Nos partenaires</h2>
+                            <h2 class="red-text m-0">@lang('info.home.partners_title')</h2>
                         </div>
                     </div>
                 </div>

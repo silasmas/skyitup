@@ -154,10 +154,10 @@
                                 <div class="main-menu">
                                     <nav>
                                         <ul id="m_menu_active">
-                                            <li class="active"><a href="{{ route('home') }}">@lang('info.home')</a></li>
-                                            <li><a href="{{ route('about') }}">@lang('info.about')</a></li>
-                                            <li><a href="{{ route('service') }}">@lang('info.service')</a></li>
-                                            <li><a href="{{ route('realization') }}">@lang('info.realization')</a></li>
+                                            <li class="active"><a href="{{ route('home') }}">@lang('info.menu_home')</a></li>
+                                            <li><a href="{{ route('about') }}">@lang('info.menu_about')</a></li>
+                                            <li><a href="{{ route('service') }}">@lang('info.menu_service')</a></li>
+                                            <li><a href="{{ route('realization') }}">@lang('info.menu_realization')</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -229,10 +229,10 @@
                             <div class="widget footer-link">
                                 <h4 class="fwidget-title mt-sm-0 mt-5 mb-5 pb-3 primary-color">@lang('info.quick_links')</h4>
                                 <ul>
-                                    <li><a href="{{ route('home') }}"><i class="fa fa-arrow-right"></i>@lang('info.home')</a></li>
-                                    <li><a href="{{ route('about') }}"><i class="fa fa-arrow-right"></i>@lang('info.about')</a></li>
-                                    <li><a href="{{ route('service') }}"><i class="fa fa-arrow-right"></i>@lang('info.service')</a></li>
-                                    <li><a href="{{ route('realization') }}"><i class="fa fa-arrow-right"></i>@lang('info.realization')</a></li>
+                                    <li><a href="{{ route('home') }}"><i class="fa fa-arrow-right"></i>@lang('info.menu_home')</a></li>
+                                    <li><a href="{{ route('about') }}"><i class="fa fa-arrow-right"></i>@lang('info.menu_about')</a></li>
+                                    <li><a href="{{ route('service') }}"><i class="fa fa-arrow-right"></i>@lang('info.menu_service')</a></li>
+                                    <li><a href="{{ route('realization') }}"><i class="fa fa-arrow-right"></i>@lang('info.menu_realization')</a></li>
                                 </ul>
                             </div>
                         </div>
