@@ -93,4 +93,18 @@ return [
         // Partners
         'partners_title' => 'Our partners',
     ],
+
+    // About
+    'about' => [
+        'big_title' => 'About us',
+        'big_title_1' => 'About',
+        'big_title_2' => 'us',
+        'welcome_title_1' => 'Welcome to',
+        'welcome_title_2' => 'our',
+        'about_content1' => 'SKYITUP SARL a Digital Services Company, based in Kinshasa, founded and managed by a team of professionals with long experience in international leadership and mainly in the African continent in new information and communication technologies.',
+        'about_content2' => 'We offer and provide a rich portfolio of Intelligent solutions adapted to the socio-economic environment and entities for better added value.',
+        '' => [
+            '' => '',
+        ],
+    ],
 ];

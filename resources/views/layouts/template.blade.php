@@ -35,12 +35,15 @@
 @endif
 
 @if (Route::current()->getName() == 'about')
+            @lang('info.about.big_title')
 @endif
 
 @if (Route::current()->getName() == 'service')
+            @lang('info.menu_service')
 @endif
 
 @if (Route::current()->getName() == 'realization')
+            @lang('info.menu_realization')
 @endif
         </title>
     </head>
@@ -154,10 +157,10 @@
                                 <div class="main-menu">
                                     <nav>
                                         <ul id="m_menu_active">
-                                            <li class="active"><a href="{{ route('home') }}">@lang('info.menu_home')</a></li>
-                                            <li><a href="{{ route('about') }}">@lang('info.menu_about')</a></li>
-                                            <li><a href="{{ route('service') }}">@lang('info.menu_service')</a></li>
-                                            <li><a href="{{ route('realization') }}">@lang('info.menu_realization')</a></li>
+                                            <li class="{{ Route::current()->getName() == 'home' ? 'active' : '' }}"><a href="{{ route('home') }}">@lang('info.menu_home')</a></li>
+                                            <li class="{{ Route::current()->getName() == 'about' ? 'active' : '' }}"><a href="{{ route('about') }}">@lang('info.menu_about')</a></li>
+                                            <li class="{{ Route::current()->getName() == 'service' ? 'active' : '' }}"><a href="{{ route('service') }}">@lang('info.menu_service')</a></li>
+                                            <li class="{{ Route::current()->getName() == 'realization' ? 'active' : '' }}"><a href="{{ route('realization') }}">@lang('info.menu_realization')</a></li>
                                         </ul>
                                     </nav>
                                 </div>

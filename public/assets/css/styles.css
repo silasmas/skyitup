@@ -692,7 +692,7 @@ a:hover {
 .abt-rt-inner {
   height: 100%;
   display: flex;
-  background: url(../images/about/abt-right-thumb.jpg) center/cover no-repeat;
+  background: url(../img/sliders/_slider-1.png) center/cover no-repeat;
 }
 
 a.expand-video {
@@ -1726,7 +1726,7 @@ span.post-date i {
 .crumbs-area {
   position: relative;
   z-index: 1;
-  background: url(../images/bg/bg1.jpg);
+  background: url(../img/sliders/slider-1.png);
   padding: 213px 0 114px;
   background-size: cover;
 }

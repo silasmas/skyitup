@@ -61,7 +61,7 @@ return [
         'about_mission_description' => 'Notre mission est de dotée de capacité à toute personne ou organisation de produire plus dans un temps record.',
         'about_ambitions' => 'Ambitions',
         'about_ambitions_title' => 'Nos ambitions',
-        'about_ambitions_description' => 'SKYITUP SARL à l’ambition de continuer dans l’amélioration de l’environnement, du social, de l’économie de la population et de la gouvernance en offrant des solutions de transformation digitale qui permettent l’élévation de la qualité socio-économique du monde et de la population.',
+        'about_ambitions_description' => 'SKYITUP SARL à l\'ambition de continuer dans l\'amélioration de l\'environnement, du social, de l\'économie de la population et de la gouvernance en offrant des solutions de transformation digitale qui permettent l\'élévation de la qualité socio-économique du monde et de la population.',
         'about_values' => 'Valeurs',
         'about_values_title' => 'Nos valeurs',
         'about_values_list' => [
@@ -92,5 +92,19 @@ return [
         'testimonial_subtitle' => 'Témoignages',
         // Partners
         'partners_title' => 'Nos partenaires',
+    ],
+
+    // About
+    'about' => [
+        'big_title' => 'A propos de nous',
+        'big_title_1' => 'A propos de',
+        'big_title_2' => 'nous',
+        'welcome_title_1' => 'Bienvenue chez',
+        'welcome_title_2' => 'notre',
+        'about_content1' => 'SKYITUP SARL une Entreprise de Services du Numérique, basée à Kinshasa, fondée et dirigée par une équipe de professionnels possédant une longue expérience dans le leadership international et principalement dans le continent Africain dans les nouvelles technologies de l\'information et de la communication.',
+        'about_content2' => 'Nous offrons et fournissons un portefeuille bien riche de solutions Intelligentes adaptées à l\'environnement socio-économique et aux entités pour une meilleur valeur ajoutée.',
+        '' => [
+            '' => '',
+        ],
     ],
 ];
