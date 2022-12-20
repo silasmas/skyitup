@@ -141,4 +141,51 @@
         </div>
         <!-- values area end -->
 
+        <!-- team area start -->
+        <div class="teacher-area pt--50 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <span class="text-uppercase">@lang('info.home.team_title')</span>
+                            <h2 class="green-text-1">@lang('info.home.team_subtitle')</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12 mx-auto">
+                        <div class="card mb-5 rounded-block overflow-hidden">
+                            <img src="{{ asset('assets/img/team/member-1.jpg') }}" alt="image">
+                            <div class="card-body text-center p-25">
+                                <h3 class="card-title mb-4"><a href="teacher-details.html">Willy NGANA</a></h3>
+                                <span class="primary-color d-block mb-3">@lang('info.home.team_function.c_e_o')</span>
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                    <a class="btn btn-primary btn-round btn-sm" href="#"> Read More </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 col-12 mx-auto">
+                        <div class="card mb-5 rounded-block overflow-hidden">
+                            <img src="{{ asset('assets/img/team/member-2.jpg') }}" alt="image">
+                            <div class="card-body text-center p-25">
+                                <h3 class="card-title mb-4"><a href="teacher-details.html">René KUNGANA</a></h3>
+                                <span class="primary-color d-block mb-3">@lang('info.home.team_function.c_o_o')</span>
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                    <a class="btn btn-primary btn-round btn-sm" href="#"> Read More </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team area end -->
+
 @endsection

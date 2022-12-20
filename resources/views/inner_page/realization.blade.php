@@ -22,7 +22,7 @@
                         <div class="card mb-5 rounded-block overflow-hidden">
                             <img class="card-img-top" src="{{ asset('assets/img/realizations/realization-1.jpg') }}" alt="image">
                             <div class="card-body p-25">
-                                <h4 class="card-title mb-4"><a href="blog-details.html">Curabitur pretium tincidunt lacus</a></h4>
+                                <h4 class="card-title mb-4"><a href="#">Curabitur pretium tincidunt lacus</a></h4>
                                 <p class="card-text">Duis ac tellus et risus vulputate vehicula donec lobortis risus a elit. Etiam tempor.</p>
                                 <a class="btn btn-primary btn-round btn-sm" href="#"> Read More </a>
                             </div>
@@ -35,7 +35,7 @@
                         <div class="card mb-5 rounded-block overflow-hidden">
                             <img class="card-img-top" src="{{ asset('assets/img/realizations/realization-2.jpg') }}" alt="image">
                             <div class="card-body p-25">
-                                <h4 class="card-title mb-4"><a href="blog-details.html">Curabitur pretium tincidunt lacus</a></h4>
+                                <h4 class="card-title mb-4"><a href="#">Curabitur pretium tincidunt lacus</a></h4>
                                 <p class="card-text">Duis ac tellus et risus vulputate vehicula donec lobortis risus a elit. Etiam tempor.</p>
                                 <a class="btn btn-primary btn-round btn-sm" href="#"> Read More </a>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="card mb-5 rounded-block overflow-hidden">
                             <img class="card-img-top" src="{{ asset('assets/img/realizations/realization-3.jpg') }}" alt="image">
                             <div class="card-body p-25">
-                                <h4 class="card-title mb-4"><a href="blog-details.html">Curabitur pretium tincidunt lacus</a></h4>
+                                <h4 class="card-title mb-4"><a href="#">Curabitur pretium tincidunt lacus</a></h4>
                                 <p class="card-text">Duis ac tellus et risus vulputate vehicula donec lobortis risus a elit. Etiam tempor.</p>
                                 <a class="btn btn-primary btn-round btn-sm" href="#"> Read More </a>
                             </div>
