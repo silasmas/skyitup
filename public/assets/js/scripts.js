@@ -68,7 +68,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
             nav: true,
             items: 1,
             smartSpeed: 800,
-            navText: ['<i><img src="assets/images/angle-left.png" alt="icon"/></i><span>prev</span>', '<span>next</span><i><img src="assets/images/angle-right.png" alt="icon"/></i>']
+            navText: ['<i><img src="assets/img/angle-left.png" alt="icon"/></i><span>prev</span>', '<span>next</span><i><img src="assets/img/angle-right.png" alt="icon"/></i>']
         });
     };
     slider_area();
