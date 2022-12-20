@@ -111,7 +111,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
     function commn_carousel() {
         $('.commn-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: true,
             margin: 0,
             autoplayTimeout: 4000,
@@ -141,7 +141,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
     function teacher_carousel() {
         $('.teacher-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: false,
             margin: 0,
             autoplayTimeout: 4000,
@@ -171,7 +171,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
     function blog_carousel() {
         $('.blog-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             margin: 0,
             dots: false,
             autoplayTimeout: 4000,
@@ -201,7 +201,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
     function tst_carousel() {
         $('.tst-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: true,
             items: 1,
             autoplayTimeout: 4000,
