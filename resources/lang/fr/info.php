@@ -124,4 +124,13 @@ return [
         'content5_1' => 'Les services d\'assistance informatique de SkyITup SARL sont composés de professionnels de l\'informatique certifiés et sont disponibles pour vous aider par téléphone, par e-mail ou sur notre portail Web sécurisé. SkyITup SARL offre un service de support informatique d\'entreprise de première classe et des services de surveillance de réseau à distance.',
         'content5_2' => 'Nos services d\'assistance informatique garantissent que vos systèmes et applications informatiques critiques sont toujours opérationnels et que tous les problèmes techniques sont résolus rapidement et avec précision par des techniciens compétents et serviables. Qu\'il s\'agisse de problèmes d\'impression, de problèmes de connectivité, de virus, de synchronisation des périphériques et plus encore, les experts de SkyITup SARL peuvent vous aider.',
     ],
+
+    // Realization
+    'realization' => [
+        'big_title' => 'Nos réalisations',
+        'big_title_1' => 'Nos',
+        'big_title_2' => 'réalisations',
+        'title1' => '',
+        'content1' => '',
+    ],
 ];

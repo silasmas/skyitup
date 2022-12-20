@@ -124,4 +124,13 @@ return [
         'content5_1' => 'SkyITup LLC\'s IT support services are staffed by certified IT professionals and are available to assist you by phone, email or through our secure web portal. SkyITup LLC offers first-class enterprise IT support service and remote network monitoring services.',
         'content5_2' => 'Our IT support services ensure that your critical IT systems and applications are always operational and that any technical issues are resolved quickly and accurately by knowledgeable and helpful technicians. Whether it\'s printing issues, connectivity issues, viruses, device synchronization and more, the experts at SkyITup LLC can help.',
     ],
+
+    // Realization
+    'realization' => [
+        'big_title' => 'Our realizations',
+        'big_title_1' => 'Our',
+        'big_title_2' => 'realizations',
+        'title1' => '',
+        'content1' => '',
+    ],
 ];
