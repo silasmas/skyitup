@@ -63,7 +63,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
         $('.slider-area').owlCarousel({
             margin: 0,
             loop: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 4000,
             nav: true,
             items: 1,
@@ -78,7 +78,7 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
     function course_carousel() {
         $('.course-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: false,
             autoplayTimeout: 4000,
             nav: true,
