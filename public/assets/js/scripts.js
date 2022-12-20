@@ -1,4 +1,11 @@
 /*============================
+Theme Name: Edification
+Author: Jsoft
+
+Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b2770737/
+==============================
+
+/*============================
    js index
 ==============================
 
@@ -220,61 +227,70 @@
         prependTo: "#mobile_menu"
     });
 
+    /*================================
+    Values block
+    ==================================*/
+    $('#ourValues .value-item .card').css('height', $('#ourValues .value-item').width());
+
+    // On window resize, rerun some functions
+    $(window).on('resize', function () {
+        $('#ourValues .value-item .card').css('height', $('#ourValues .value-item').width());
+    });
 })(jQuery);
 
 
 
 // google map activation
-function initMap() {
-    // Styles a map in night mode.
-    var map = new google.maps.Map(document.getElementById('google_map'), {
-        center: { lat: 40.674, lng: -73.945 },
-        scrollwheel: false,
-        zoom: 12,
-        styles: [{
-                "elementType": "geometry",
-                "stylers": [{
-                    "color": "#f5f5f5"
-                }]
-            },
-            {
-                "featureType": "poi",
-                "elementType": "labels.text",
-                "stylers": [{
-                    "visibility": "off"
-                }]
-            },
-            {
-                "featureType": "poi",
-                "elementType": "labels.text.fill",
-                "stylers": [{
-                    "color": "#757575"
-                }]
-            },
-            {
-                "featureType": "poi.business",
-                "stylers": [{
-                    "visibility": "off"
-                }]
-            },
-            {
-                "featureType": "poi.park",
-                "elementType": "geometry",
-                "stylers": [{
-                    "color": "#e5e5e5"
-                }]
-            },
-            {
-                "featureType": "transit.station",
-                "elementType": "geometry",
-                "stylers": [{
-                    "color": "#eeeeee"
-                }]
-            }
-        ]
-    });
-    var marker = new google.maps.Marker({
-        position: map.getCenter(),
-        map: map
-    });
-}
+// function initMap() {
+//     // Styles a map in night mode.
+//     var map = new google.maps.Map(document.getElementById('google_map'), {
+//         center: { lat: 40.674, lng: -73.945 },
+//         scrollwheel: false,
+//         zoom: 12,
+//         styles: [{
+//                 "elementType": "geometry",
+//                 "stylers": [{
+//                     "color": "#f5f5f5"
+//                 }]
+//             },
+//             {
+//                 "featureType": "poi",
+//                 "elementType": "labels.text",
+//                 "stylers": [{
+//                     "visibility": "off"
+//                 }]
+//             },
+//             {
+//                 "featureType": "poi",
+//                 "elementType": "labels.text.fill",
+//                 "stylers": [{
+//                     "color": "#757575"
+//                 }]
+//             },
+//             {
+//                 "featureType": "poi.business",
+//                 "stylers": [{
+//                     "visibility": "off"
+//                 }]
+//             },
+//             {
+//                 "featureType": "poi.park",
+//                 "elementType": "geometry",
+//                 "stylers": [{
+//                     "color": "#e5e5e5"
+//                 }]
+//             },
+//             {
+//                 "featureType": "transit.station",
+//                 "elementType": "geometry",
+//                 "stylers": [{
+//                     "color": "#eeeeee"
+//                 }]
+//             }
+//         ]
+//     });
+//     var marker = new google.maps.Marker({
+//         position: map.getCenter(),
+//         map: map
+//     });
+// }

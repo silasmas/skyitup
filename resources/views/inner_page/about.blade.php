@@ -45,7 +45,7 @@
                     <div class="col-lg-12">
                         <div class="about-left-content text-sm-left text-center">
                             <div class="section-title mb-4">
-                                <h3 class="h3-responsive text-uppercase green-text-1">@lang('info.home.about_mission_title')</h3>
+                                <h2 class="h2-responsive text-uppercase green-text-1">@lang('info.home.about_mission_title')</h2>
                             </div>
                             <h4 class="h4-responsive text-muted font-weight-normal">@lang('info.home.about_mission_description')</h4>
                         </div>
@@ -62,7 +62,7 @@
                     <div class="col-lg-12">
                         <div class="about-left-content text-sm-right text-center">
                             <div class="section-title mb-4">
-                                <h3 class="h3-responsive text-uppercase red-text">@lang('info.home.about_ambitions_title')</h3>
+                                <h2 class="h2-responsive text-uppercase red-text">@lang('info.home.about_ambitions_title')</h2>
                             </div>
                             <h4 class="h4-responsive text-muted font-weight-normal">@lang('info.home.about_ambitions_description')</h4>
                         </div>
@@ -73,21 +73,65 @@
         <!-- ambitions area end -->
 
         <!-- values area start -->
-        <div id="ourValues" class="about-area">
+        <div id="ourValues" class="about-area bg-light ptb--50">
             <div class="container">
+                <div class="row mb-sm-5 mb-4 text-center">
+                    <div class="col-12">
+                        <div class="section-title mb-4">
+                            <h2 class="h2-responsive font-weight-bold text-uppercase yellow-text-2">@lang('info.home.about_values_title')</h2>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
-                    <div class="col-lg-5 col-sm-7 col-12">
-                        <div class="card mb-4">
-                            <div class="card-body p-25">
-                                <div class="course-meta-title mb-4">
-                                    <div class="course-meta-text">
-                                        <h3 class="h4-responsive font-weight-bold text-uppercase yellow-text-2">@lang('info.home.about_values_title')</h3>
+                    <div class="col-lg-3 col-sm-6 col-9 mx-auto value-item">
+                        <div class="card mb-4 rounded-circle">
+                            <div class="card-body p-25 d-flex justify-content-center align-items-center text-center">
+                                <div class="view mx-5">
+                                    <img src="{{ asset('assets/img/values/value-1.png') }}" alt="" width="70">
+                                    <div class="mask">
+                                        <h4 class="h4-responsive mt-3 text-muted">@lang('info.home.about_values_list.item1')</h4>
                                     </div>
                                 </div>
-                                <h4 class="h4-responsive text-muted font-weight-normal m-2"><i class="fa fa-angle-right"></i>@lang('info.home.about_values_list.item1')</h4>
-                                <h4 class="h4-responsive text-muted font-weight-normal m-2"><i class="fa fa-angle-right"></i>@lang('info.home.about_values_list.item2')</h4>
-                                <h4 class="h4-responsive text-muted font-weight-normal m-2"><i class="fa fa-angle-right"></i>@lang('info.home.about_values_list.item3')</h4>
-                                <h4 class="h4-responsive text-muted font-weight-normal m-2"><i class="fa fa-angle-right"></i>@lang('info.home.about_values_list.item4')</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-9 mx-auto value-item">
+                        <div class="card mb-4 rounded-circle">
+                            <div class="card-body p-25 d-flex justify-content-center align-items-center text-center">
+                                <div class="view mx-5">
+                                    <img src="{{ asset('assets/img/values/value-2.png') }}" alt="" width="70">
+                                    <div class="mask">
+                                        <h4 class="h4-responsive mt-3 text-muted">@lang('info.home.about_values_list.item2')</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-9 mx-auto value-item">
+                        <div class="card mb-4 rounded-circle">
+                            <div class="card-body p-25 d-flex justify-content-center align-items-center text-center">
+                                <div class="view mx-5">
+                                    <img src="{{ asset('assets/img/values/value-3.png') }}" alt="" width="70">
+                                    <div class="mask">
+                                        <h4 class="h4-responsive mt-3 text-muted">@lang('info.home.about_values_list.item3')</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-9 mx-auto value-item">
+                        <div class="card mb-4 rounded-circle">
+                            <div class="card-body p-25 d-flex justify-content-center align-items-center text-center">
+                                <div class="view mx-5">
+                                    <img src="{{ asset('assets/img/values/value-4.png') }}" alt="" width="70">
+                                    <div class="mask">
+                                        <h4 class="h4-responsive mt-3 text-muted">@lang('info.home.about_values_list.item4')</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
