@@ -154,7 +154,7 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-5">
+                        <div class="card mb-5 rounded-block overflow-hidden">
                             <img src="{{ asset('assets/img/team/member-1.jpg') }}" alt="image">
                             <div class="card-body text-center p-25">
                                 <h3 class="card-title mb-4"><a href="teacher-details.html">Willy NGANA</a></h3>
@@ -168,7 +168,7 @@
                     </div>
 
                     <div class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-5">
+                        <div class="card mb-5 rounded-block overflow-hidden">
                             <img src="{{ asset('assets/img/team/member-2.jpg') }}" alt="image">
                             <div class="card-body text-center p-25">
                                 <h3 class="card-title mb-4"><a href="teacher-details.html">René KUNGANA</a></h3>

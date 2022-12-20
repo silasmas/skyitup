@@ -690,7 +690,7 @@ a:hover {
 .abt-rt-inner {
   height: 100%;
   display: flex;
-  background: url(../img/sliders/_slider-1.png) center/cover no-repeat;
+  background: url(../img/services/service-1.png) center/cover no-repeat;
 }
 
 a.expand-video {
@@ -1721,12 +1721,25 @@ span.post-date i {
     4. Courses
 *=============================================*/
 
+#aboutPage {
+  background: url(../img/sliders/slider-1.png);
+  background-size: cover;
+}
+
+#servicePage {
+  background: url(../img/sliders/slider-3.png);
+  background-size: cover;
+}
+
+#realizationPage {
+  background: url(../img/sliders/slider-4.png);
+  background-size: cover;
+}
+
 .crumbs-area {
   position: relative;
   z-index: 1;
-  background: url(../img/sliders/slider-1.png);
   padding: 213px 0 114px;
-  background-size: cover;
 }
 
 .crumbs-area:before {
@@ -2678,6 +2691,15 @@ h4.comment-title {
 
 .green-text-2 {
   color: #155459!important;
+}
+
+/* Border */
+.rounded-block {
+  border-radius: 2.5rem
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 /*============================================

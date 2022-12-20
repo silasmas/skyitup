@@ -39,7 +39,7 @@
 @endif
 
 @if (Route::current()->getName() == 'service')
-            @lang('info.menu_service')
+            @lang('info.service.big_title')
 @endif
 
 @if (Route::current()->getName() == 'realization')

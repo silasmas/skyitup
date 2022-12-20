@@ -3,10 +3,10 @@
 @section('guest-content')
 
         <!-- crumbs area start -->
-        <div class="crumbs-area">
+        <div id="aboutPage" class="crumbs-area">
             <div class="container">
                 <div class="crumb-content">
-                    <p class="mb-2"><a href="" class="text-warning">@lang('info.menu_home')</a> &raquo; @lang('info.menu_about')</p>
+                    <p class="mb-2"><a href="{{ route('home') }}" class="text-warning">@lang('info.menu_home')</a> &raquo; @lang('info.menu_about')</p>
                     <h4 class="crumb-title"><span>@lang('info.about.big_title_1')</span> @lang('info.about.big_title_2')</h4>
                 </div>
             </div>
@@ -28,9 +28,10 @@
                             <p>@lang('info.about.about_content2')</p>
                         </div>
                     </div>
+
                     <div class="col-lg-6">
                         <div class="abt-right-thumb">
-                            <div class="abt-rt-inner"></div>
+                            <div class="abt-rt-inner rounded-block"></div>
                         </div>
                     </div>
                 </div>
