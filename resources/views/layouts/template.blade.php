@@ -69,7 +69,7 @@
                             <div class="ht-address">
                                 <ul>
                                     <li><i class="fa fa-phone"></i>+243 821 790 718</li>
-                                    <li class="text-uppercase">@lang('info.schedule') 09h00' - 15h00'</li>
+                                    <li class="text-uppercase">@lang('info.schedule') 08h30' - 16h30'</li>
                                 </ul>
                             </div>
                         </div>

@@ -88,7 +88,7 @@
                     <div class="col-12">
                         <div class="section-title">
                             <span class="text-uppercase">@lang('info.home.about_title')</span>
-                            <h2><span class="yellow-text-2">@lang('info.home.about_mission')</span> | <span class="red-text">@lang('info.home.about_ambitions')</span> | <span class="green-text-1">@lang('info.home.about_values')</span></h2>
+                            <h2>@lang('info.home.about_mission') | @lang('info.home.about_ambitions') | @lang('info.home.about_values')</h2>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <div class="col-12">
                         <div class="section-title text-center">
                             <span class="text-uppercase">@lang('info.home.team_title')</span>
-                            <h2 class="green-text-1">@lang('info.home.team_subtitle')</h2>
+                            <h2>@lang('info.home.team_subtitle')</h2>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title sec-style-two">
-                            <h2 class="red-text m-0">@lang('info.home.partners_title')</h2>
+                            <h2 class="m-0" style="color: black;">@lang('info.home.partners_title')</h2>
                         </div>
                     </div>
                 </div>

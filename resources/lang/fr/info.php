@@ -74,8 +74,8 @@ return [
         'team_title' => 'Notre équipe',
         'team_subtitle' => 'Leadership',
         'team_function' => [
-            'c_e_o' => 'Président-Directeur Général',
-            'c_o_o' => 'Directeur des Opérations'
+            'c_e_o' => 'Chief Executive Officer',
+            'c_o_o' => 'Chief Finance Officer'
         ],
         // Contact
         'contact_title' => 'Contact',

@@ -75,7 +75,7 @@ return [
         'team_subtitle' => 'Leadership',
         'team_function' => [
             'c_e_o' => 'Chief Executive Officer',
-            'c_o_o' => 'Chief Operations Officer'
+            'c_o_o' => 'Chief Finance Officer'
         ],
         // Contact
         'contact_title' => 'Contact',

@@ -46,7 +46,7 @@
                     <div class="col-lg-12">
                         <div class="about-left-content text-sm-left text-center">
                             <div class="section-title mb-4">
-                                <h2 class="h2-responsive text-uppercase green-text-1">@lang('info.home.about_mission_title')</h2>
+                                <h2 class="h2-responsive text-uppercase">@lang('info.home.about_mission_title')</h2>
                             </div>
                             <h4 class="h4-responsive text-muted font-weight-normal">@lang('info.home.about_mission_description')</h4>
                         </div>
@@ -63,7 +63,7 @@
                     <div class="col-lg-12">
                         <div class="about-left-content text-sm-right text-center">
                             <div class="section-title mb-4">
-                                <h2 class="h2-responsive text-uppercase red-text">@lang('info.home.about_ambitions_title')</h2>
+                                <h2 class="h2-responsive text-uppercase">@lang('info.home.about_ambitions_title')</h2>
                             </div>
                             <h4 class="h4-responsive text-muted font-weight-normal">@lang('info.home.about_ambitions_description')</h4>
                         </div>
@@ -79,7 +79,7 @@
                 <div class="row mb-sm-5 mb-4 text-center">
                     <div class="col-12">
                         <div class="section-title mb-4">
-                            <h2 class="h2-responsive font-weight-bold text-uppercase yellow-text-2">@lang('info.home.about_values_title')</h2>
+                            <h2 class="h2-responsive font-weight-bold text-uppercase">@lang('info.home.about_values_title')</h2>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                     <div class="col-12">
                         <div class="section-title text-center">
                             <span class="text-uppercase">@lang('info.home.team_title')</span>
-                            <h2 class="green-text-1">@lang('info.home.team_subtitle')</h2>
+                            <h2>@lang('info.home.team_subtitle')</h2>
                         </div>
                     </div>
                 </div>
