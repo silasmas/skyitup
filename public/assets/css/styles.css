@@ -2670,6 +2670,11 @@ h4.comment-title {
   font-size: 2.5rem;
 }
 
+#member img {
+  width: 35rem;
+  ;
+}
+
 /* Text */
 .text-bold {
   font-weight: 900!important;

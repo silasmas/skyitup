@@ -11,6 +11,23 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
 
 ==========================================*/
 
+/**
+ * Dynamically load JS files
+ */
+function loadJS() {
+    $.getScript('/assets/js/vendor/jquery-2.2.4.min.js');
+    $.getScript('/assets/js/bootstrap.min.js');
+    $.getScript('/assets/js/owl.carousel.min.js');
+    $.getScript('/assets/js/jquery.magnific-popup.min.js');
+    $.getScript('/assets/js/jquery.slicknav.min.js');
+    $.getScript('/assets/js/plugins.js');
+    $.getScript('/assets/js/scripts.js');
+}
+
+$('[href="#"]').click(function () {
+    return false;
+});
+
 (function($) {
     "use strict";
  
@@ -225,6 +242,28 @@ Customizer : Xanders Samoth | https://www.linkedin.com/in/xanders-samoth-b277073
     ==================================*/
     $('ul#m_menu_active').slicknav({
         prependTo: "#mobile_menu"
+    });
+
+    /*================================
+    Modal with asynchronous data
+    ==================================*/
+    $('.team-member').each(function (params) {
+        var _this = $(this).get(0);
+
+        $(_this).on('click', function (e) {
+            $('#modalAsyncData .modal-body').load($(_this).attr('href'), function () {
+                $('#modalAsyncData').modal({show:true});
+                loadJS();
+            });
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+
+            return false;
+        });
+
+        $('#modalAsyncData').on('hidden.bs.modal', function () {
+            $(this).find('.modal-body').html('<div class="container"><div class="row"><div class="col-lg-4 col-sm-6 col-8 mx-auto"><img src="assets/img/ajax-loader.gif" class="img-fluid"></div></div></div>');
+        });
     });
 
     /*================================

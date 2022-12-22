@@ -93,19 +93,19 @@
         "work_countries" :
         [
             {
-                "region" : "Europe:",
+                "region" : "Europe",
                 "countries" : "Hollande, France, Espagne, Irlande, Italie"
             },
             {
-                "region" : "Afrique & Moyen orient:",
+                "region" : "Afrique & Moyen orient",
                 "countries" : "RDC, Egypte, Tunisie, Algérie, Côte d’Ivoire, Sierra Leone, Nigéria, Ethiopie, Rwanda, Burundi, Angola, Namibie, République d’Afrique du Sud, Liban, Arabie Saoudite"
             },
             {
-                "region" : "Asie:",
+                "region" : "Asie",
                 "countries" : "Nouvelle Calédonie"
             },
             {
-                "region" : "Antilles:",
+                "region" : "Antilles",
                 "countries" : "Guadeloupe et Martinique"
             }
         ],
@@ -268,19 +268,19 @@
         "work_countries" :
         [
             {
-                "region" : "Europe:",
+                "region" : "Europe",
                 "countries" : "Holland, France, Spain, Ireland, Italy"
             },
             {
-                "region" : "Africa & Middle East:",
+                "region" : "Africa & Middle East",
                 "countries" : "DRC, Egypt, Tunisia, Algeria, Ivory Coast, Sierra Leone, Nigeria, Ethiopia, Rwanda, Burundi, Angola, Namibia, Republic of South Africa, Lebanon, Saudi Arabia"
             },
             {
-                "region" : "Asia:",
+                "region" : "Asia",
                 "countries" : "New Caledonia"
             },
             {
-                "region" : "West Indies:",
+                "region" : "West Indies",
                 "countries" : "Guadeloupe and Martinique"
             }
         ],

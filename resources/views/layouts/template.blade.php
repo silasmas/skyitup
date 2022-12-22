@@ -59,6 +59,36 @@
         </div>
         <!-- prealoader area end -->
 
+        <!-- ============================================================== -->
+        <!-- Modals -->
+        <!-- ============================================================== -->
+        <!-- ======= Asynchronous load pages ======= -->
+        <div class="modal fade" id="modalAsyncData" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header p-4 border-0">
+                        <button type="button" class="close p-2 mr-1" data-dismiss="modal" style="font-size: 3rem;">&times;</button>
+                    </div>
+                    <div class="modal-body px-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-8 mx-auto">
+                                    <img src="assets/img/ajax-loader.gif" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer p-4 border-0">
+                        <button type="button" class="btn btn-danger btn-round btn-sm text-white" data-dismiss="modal">@lang('info.close')</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Modals -->
+        <!-- ============================================================== -->
+
         <!-- header area start -->
         <header id="header">
             <!-- header top area start -->

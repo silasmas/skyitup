@@ -18,5 +18,6 @@ Route::get('/language/{locale}', [HomeController::class, 'changeLanguage'])->nam
 // Main links
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/team/{member_id}', [HomeController::class, 'teamMember'])->whereNumber('member_id')->name('team.member');
 Route::get('/service', [HomeController::class, 'service'])->name('service');
 Route::get('/realization', [HomeController::class, 'realization'])->name('realization');

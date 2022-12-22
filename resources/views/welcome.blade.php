@@ -167,7 +167,7 @@ use GuzzleHttp\Exception\ClientException;
                                 <ul class="list-inline">
                                     <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
                                     <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
-                                    <a href="#" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
+                                    <a href="{{ route('team.member', ['member_id' => $team->id]) }}" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
                                 </ul>
                             </div>
                         </div>

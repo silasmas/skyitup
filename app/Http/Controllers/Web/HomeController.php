@@ -138,6 +138,74 @@ class HomeController extends Controller
     /**
      * @return \Illuminate\View\View
      */
+    public function teamMember($member_id)
+    {
+        $json_url = asset('/assets/js/team.json');
+        $client = new Client();
+
+        try {
+            $response = $client->request('GET', $json_url, [
+                'headers' => [
+                    'Accept' => 'application/json',
+                ],
+                'verify'  => false
+            ]);
+            $json_result = json_decode($response->getBody(), false);
+
+            if (Session::has('locale')) {
+                $sessionLocale = Session::get('locale');
+
+                if ($sessionLocale === 'en') {
+                    foreach ($json_result->en as $team):
+                        if ($team->id === (int) $member_id) {
+                            return view('inner_page.team', [
+                                'member' => $team
+                            ]);
+                        }
+                    endforeach;
+
+                } else {
+                    foreach ($json_result->fr as $team):
+                        if ($team->id === (int) $member_id) {
+                            return view('inner_page.team', [
+                                'member' => $team
+                            ]);
+                        }
+                    endforeach;
+                }
+
+            } else {
+                $appLocale = app()->getLocale();
+
+                if ($appLocale === 'en') {
+                    foreach ($json_result->en as $team):
+                        if ($team->id === (int) $member_id) {
+                            return view('inner_page.team', [
+                                'member' => $team
+                            ]);
+                        }
+                    endforeach;
+                    
+                } else {
+                    foreach ($json_result->fr as $team):
+                        // dd($team);
+                        if ($team->id === (int) $member_id) {
+                            return view('inner_page.team', [
+                                'member' => $team
+                            ]);
+                        }
+                    endforeach;
+                }
+            }
+
+        } catch (ClientException $ex) {
+            return response()->json($ex, 404);
+        }
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
     public function service()
     {
         return view('inner_page.service');
