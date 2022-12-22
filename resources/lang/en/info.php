@@ -10,6 +10,8 @@ return [
     'email' => 'E-mail',
     'search' => 'Search here...',
     'send' => 'Send',
+    'read_more' => 'Read more',
+    'details' => 'Details',
     'all_right_reserved' => 'All right reserved',
     'company_description' => 'SkyITup LLC is a Digital Services Company based in Kinshasa.',
     'company_address' => '25, De l\'Equateur Street, Gombe Area, MK Tower Building, level 2, local 202',

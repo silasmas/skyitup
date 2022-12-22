@@ -1,3 +1,7 @@
+<?php
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+?>
 @extends('layouts.template')
 
 @section('guest-content')
@@ -153,33 +157,22 @@
                 </div>
 
                 <div class="row">
+    @foreach ($json_result as $team)
                     <div class="col-lg-4 col-sm-6 col-12 mx-auto">
                         <div class="card mb-5 rounded-block overflow-hidden">
-                            <img src="{{ asset('assets/img/team/member-1.jpg') }}" alt="image">
+                            <img src="{{ asset($team->picture) }}" alt="image">
                             <div class="card-body text-center p-25">
-                                <h3 class="card-title mb-4"><a href="teacher-details.html">Willy NGANA</a></h3>
-                                <span class="primary-color d-block mb-3">@lang('info.home.team_function.c_e_o')</span>
+                                <h3 class="card-title mb-4">{{ $team->names }}</h3>
+                                <span class="primary-color d-block mb-3">{{ $team->role }}</span>
                                 <ul class="list-inline">
-                                    <li><a href="#"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                    <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
+                                    <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                    <a href="#" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-5 rounded-block overflow-hidden">
-                            <img src="{{ asset('assets/img/team/member-2.jpg') }}" alt="image">
-                            <div class="card-body text-center p-25">
-                                <h3 class="card-title mb-4"><a href="teacher-details.html">René KUNGANA</a></h3>
-                                <span class="primary-color d-block mb-3">@lang('info.home.team_function.c_o_o')</span>
-                                <ul class="list-inline">
-                                    <li><a href="#"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    </div>    
+    @endforeach
                 </div>
             </div>
         </div>

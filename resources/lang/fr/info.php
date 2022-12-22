@@ -10,6 +10,8 @@ return [
     'email' => 'E-mail',
     'search' => 'Rechercher ici ...',
     'send' => 'Envoyer',
+    'read_more' => 'Lire la suite',
+    'details' => 'Détails',
     'all_right_reserved' => 'Tous droits réservés',
     'company_description' => 'SkyITup SARL est une Entreprise de Services du Numérique basée à Kinshasa.',
     'company_address' => '25, Avenue de l\'Equateur, Commune de la Gombe Immeuble MK Tower, 2e niveau, local 202',

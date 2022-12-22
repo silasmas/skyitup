@@ -1,0 +1,352 @@
+{
+    "fr" :
+    [
+        {
+        "id" : 1,
+        "names" : "Alphonse-Willy Ngana",
+        "role" : "Chief Executive Officer",
+        "facebook" : "#alphonsewillyngana",
+        "twitter" : "#alphonsewillyngana",
+        "assets" :
+        [
+            {
+                "asset1" : "Administrateur Directeur Général & Co-Fondateur, Kinshasa & Amsterdam",
+                "asset2" : "Entrepreneur, fondateurs et administrateurs de sociétés, ayant un leadership fort et un track record dans le redressement et la transformation des entreprises en vue d'une croissance durable et une profitabilité en particulier dans les entreprises des secteurs d'agro-alimentaires, de manufacture et services financiers. Son leadership dans la stratégie de relations publiques, la défense des intérêts privés et gouvernementaux ont permis d'accélérer les performances des entreprises. Assurer le plaidoyer avec insistance, en particulier sur la stratégie, la croissance, la durabilité et la gouvernance, les politiques publiques, le développement économique et l'efficacité du Conseil d'Administration tant d'organisations que des personnes est sa passion."
+            },
+            {
+                "asset1" : "Willy NGANA a, à son actif, 19 années d'une expérience riche dans le management à l'international, spécialement en Afrique et moyen orient, mais aussi en Europe Occidentale. Il possède également une solide expérience dans la direction générale, la direction financière, d'audit interne, gestion de risque et, une grande expérience dans le Conseil d'Administration à la fois d'entreprises privées et publiques et dans les organisations non gouvernementales.",
+                "asset2" : "Alphonse Willy est doté d'une expérience et d'une compréhension approfondie sur les enjeux et dynamique économique et social des pays, sur les politiques fiscales et de programme de développement économique particulièrement en Afrique subsaharienne. Il est résiliant et passionné d'apporter et de transformer toute organisation dans laquelle il est, Alphonse Willy a fait preuve d'une forte capacité de leadership dans le redressement d'entreprise, le lancement tout comme l'introduction en bourse, la gestion de crise et environnementale, sociale et la gouvernance. Il est actuellement Président du Conseil d'Administration de FBN Banque RDC."
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "Heinekein International Group",
+                "role" : "Directeur du développement de projets d'affaires pour la zone Afrique et moyen orient, Amsterdam, Hollande"
+            },
+            {
+                "company" : "Sierra Leone Brewery LTD",
+                "role" : "Administrateur Directeur Général/Directeur pays, Freetown, Sierra Leone"
+            },
+            {
+                "company" : "Bralirwa SA",
+                "role" : "Directeur Financier, Kigali, Rwanda"
+            },
+            {
+                "company" : "Bourse du Rwanda",
+                "role" : "Création de la Bourse du Rwanda par l'introduction en bourse (IPO) de la Bralirwa à Kigali, Rwanda"
+            },
+            {
+                "company" : "Millenium Challenge Corporation USA (Sierra Leone Unit)",
+                "role" : "Administrateur indépendant, Freetown Sierra Leone"
+            },
+            {
+                "company" : "Chambre de Commerce de Sierra Leone",
+                "role" : "Membre du Conseil, Freetown Sierra Leone"
+            }
+        ],
+        "diplomas" :
+        [
+            {
+                "diploma" : "Master en Economie, Institut Supérieur de Commerce, Kinshasa, RDC"
+            },
+            {
+                "diploma" : "INSEAD France, Leadership IMAC et General Manager Training"
+            },
+            {
+                "diploma" : "Harvard Business School USA, Leadership"
+            },
+            {
+                "diploma" : "IMD Lausanne Switzerland, High Effective Board of Director"
+            }
+        ],
+        "expertises" :
+        [
+            {
+                "expertise" : "Directeur Général et Directeur Financier"
+            },
+            {
+                "expertise" : "Conseil d'Administration"
+            },
+            {
+                "expertise" : "Stratégie, Redressement, Transformation, Changement d'organisation,  Innovation et produits"
+            },
+            {
+                "expertise" : "Gestion de risque, Audit interne & contrôle internes"
+            },
+            {
+                "expertise" : "Relations Publiques : Public Affairs & lobbying"
+            },
+            {
+                "expertise" : "Banque"
+            },
+            {
+                "expertise" : "Organisation Non Gouvernementale"
+            },
+            {
+                "expertise" : "Environnement Social & Gouvernance"
+            },
+            {
+                "expertise" : "Gestion de Crise et Continuité des Affaires"
+            }
+        ],
+        "work_countries" :
+        [
+            {
+                "region" : "Europe:",
+                "countries" : "Hollande, France, Espagne, Irlande, Italie"
+            },
+            {
+                "region" : "Afrique & Moyen orient:",
+                "countries" : "RDC, Egypte, Tunisie, Algérie, Côte d’Ivoire, Sierra Leone, Nigéria, Ethiopie, Rwanda, Burundi, Angola, Namibie, République d’Afrique du Sud, Liban, Arabie Saoudite"
+            },
+            {
+                "region" : "Asie:",
+                "countries" : "Nouvelle Calédonie"
+            },
+            {
+                "region" : "Antilles:",
+                "countries" : "Guadeloupe et Martinique"
+            }
+        ],
+        "picture" : "assets/img/team/member-1.jpg"
+        },
+        {
+        "id" : 2,
+        "names" : "René Kungana Kola",
+        "role" : "Chief Finance Officer",
+        "facebook" : "https://www.facebook.com/rene.k.kola",
+        "twitter" : "https://twitter.com/KunganaKolaRene",
+        "assets" :
+        [
+            {
+                "asset1" : "Kungana Kola René a plus de 30 ans d’expérience en informatique de gestion et pilotage des projets d’implémentation de systèmes d’information ERP, développement du Business et de la direction de projets métiers à travers le monde Heineken en Afrique.",
+                "asset2" : ""
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "Progiciel de Gestion Intégré (ERP)",
+                "role" : "Microsoft Dynamics Navision"
+            },
+            {
+                "company" : "",
+                "role" : "Odoo"
+            },
+            {
+                "company" : "",
+                "role" : "Il maitrise aussi le progiciel de ressources humaines SAP-success Factor. Il parle couramment Anglais et Français, il a vécu et travaillé dans nombreux Pays Africains tels que : le Nigeria, l’Ethiopie, la Sierra Leone, le Rwanda, le Burundi, la Cote d’ivoire, et le Tchad."
+            }
+        ],
+        "diplomas" : [],
+        "expertises" : [],
+        "work_countries" : [],
+        "picture" : "assets/img/team/member-2.jpg"
+        },
+        {
+        "id" : 3,
+        "names" : "Sarah Kalala",
+        "role" : "Marketing & Communication",
+        "facebook" : "#sarahkalala",
+        "twitter" : "#sarahkalala",
+        "assets" :
+        [
+            {
+                "asset1" : "Sarah Kalala, Master en communication socio-éducative et stratégique à l’université catholique du Congo est une jeune femme Passionnée, Dynamique, Rigoureuse, Focus.",
+                "asset2" : "Travailleuse, elle est très impliquée et ne lâche rien tant qu’elle n’a pas encore atteint ses objectifs ; sa passion pour la communication lui a conduit à travailler avec diverses entreprises dans la gestion de leur relation client et dans l’organisation des évènements."
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "",
+                "role" : "Front desk : 2020-2021"
+            },
+            {
+                "company" : "",
+                "role" : "Sales officer Token communication"
+            }
+        ],
+        "diplomas" : [],
+        "expertises" : [],
+        "work_countries" : [],
+        "picture" : "assets/img/team/member-3.jpg"
+        }
+    ],
+    "en" :
+    [
+        {
+        "id" : 1,
+        "names" : "Alphonse-Willy Ngana",
+        "role" : "Chief Executive Officer",
+        "facebook" : "#alphonsewillyngana",
+        "twitter" : "#alphonsewillyngana",
+        "assets" :
+        [
+            {
+                "asset1" : "Managing Director & Co-Founder, Kinshasa & Amsterdam",
+                "asset2" : "Entrepreneur, founders and directors of companies, with strong leadership and a track record in the turnaround and transformation of companies with a view to sustainable growth and profitability, particularly in companies in the agri-food, manufacturing and financial services. His leadership in public relations strategy, private and government advocacy has accelerated business performance. Advocating with insistence, particularly on strategy, growth, sustainability and governance, public policy, economic development and Board effectiveness of both organizations and individuals is his passion."
+            },
+            {
+                "asset1" : "Willy NGANA has 19 years of rich experience in international management, especially in Africa and the Middle East, but also in Western Europe. He also has solid experience in general management, financial management, internal audit, risk management and extensive experience in the Board of Directors of both private and public companies and in non-governmental organizations.",
+                "asset2" : "Alphonse Willy has extensive experience and understanding of the economic and social challenges and dynamics of countries, of tax policies and economic development programs, particularly in sub-Saharan Africa. He is resilient and passionate about bringing and transforming any organization he is in, Alphonse Willy has demonstrated strong leadership ability in business turnaround, launch as well as IPO, management of crisis and environmental, social and governance. He is currently Chairman of the Board of Directors of FBN Banque RDC."
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "Heinekein International Group",
+                "role" : "Director of business project development for the Africa and Middle East zone, Amsterdam, Holland"
+            },
+            {
+                "company" : "Sierra Leone Brewery LTD",
+                "role" : "Managing Director/Country Director, Freetown, Sierra Leone"
+            },
+            {
+                "company" : "Bralirwa SA",
+                "role" : "Chief Financial Officer, Kigali, Rwanda"
+            },
+            {
+                "company" : "Rwanda Stock Exchange",
+                "role" : "Establishment of the Rwanda Stock Exchange through the initial public offering (IPO) of the Bralirwa in Kigali, Rwanda"
+            },
+            {
+                "company" : "Millenium Challenge Corporation USA (Sierra Leone Unit)",
+                "role" : "Independent Director, Freetown Sierra Leone"
+            },
+            {
+                "company" : "Chambre de Commerce de Sierra Leone",
+                "role" : "Board Member, Freetown Sierra Leone"
+            }
+        ],
+        "diplomas" :
+        [
+            {
+                "diploma" : "Master in Economics, Higher Institute of Commerce, Kinshasa, DRC"
+            },
+            {
+                "diploma" : "INSEAD France, Leadership IMAC ans General Manager Training"
+            },
+            {
+                "diploma" : "Harvard Business School USA, Leadership"
+            },
+            {
+                "diploma" : "IMD Lausanne Switzerland, High Effective Board of Director"
+            }
+        ],
+        "expertises" :
+        [
+            {
+                "expertise" : "Chief Executive Officer and Chief Financial Officer"
+            },
+            {
+                "expertise" : "Board of Directors"
+            },
+            {
+                "expertise" : "Strategy, Turnaround, Transformation, Organizational change, Innovation and products"
+            },
+            {
+                "expertise" : "Risk management, internal audit & internal control"
+            },
+            {
+                "expertise" : "Public Relations: Public Affairs and lobbying"
+            },
+            {
+                "expertise" : "Bank"
+            },
+            {
+                "expertise" : "Non-Governmental Organization"
+            },
+            {
+                "expertise" : "Social Environment & Governance"
+            },
+            {
+                "expertise" : "Crisis Management and Business Continuity"
+            }
+        ],
+        "work_countries" :
+        [
+            {
+                "region" : "Europe:",
+                "countries" : "Holland, France, Spain, Ireland, Italy"
+            },
+            {
+                "region" : "Africa & Middle East:",
+                "countries" : "DRC, Egypt, Tunisia, Algeria, Ivory Coast, Sierra Leone, Nigeria, Ethiopia, Rwanda, Burundi, Angola, Namibia, Republic of South Africa, Lebanon, Saudi Arabia"
+            },
+            {
+                "region" : "Asia:",
+                "countries" : "New Caledonia"
+            },
+            {
+                "region" : "West Indies:",
+                "countries" : "Guadeloupe and Martinique"
+            }
+        ],
+        "picture" : "assets/img/team/member-1.jpg"
+        },
+        {
+        "id" : 2,
+        "names" : "René Kungana Kola",
+        "role" : "Chief Finance Officer",
+        "facebook" : "https://www.facebook.com/rene.k.kola",
+        "twitter" : "https://twitter.com/KunganaKolaRene",
+        "assets" :
+        [
+            {
+                "asset1" : "Kungana Kola René has more than 30 years of experience in computer management and management of ERP information system implementation projects, business development and management of business projects throughout the Heineken world in Africa.",
+                "asset2" : ""
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "Enterprise Ressource Planning (ERP)",
+                "role" : "Microsoft Dynamics Navision"
+            },
+            {
+                "company" : "",
+                "role" : "Odoo"
+            },
+            {
+                "company" : "",
+                "role" : "He also masters the SAP-Success Factor human resources software package. He is fluent in English and French, he has lived and worked in many African countries such as: Nigeria, Ethiopia, Sierra Leone, Rwanda, Burundi, Ivory Coast, and Chad."
+            }
+        ],
+        "diplomas" : [],
+        "expertises" : [],
+        "work_countries" : [],
+        "picture" : "assets/img/team/member-2.jpg"
+        },
+        {
+        "id" : 3,
+        "names" : "Sarah Kalala",
+        "role" : "Marketing & Communication",
+        "facebook" : "#sarahkalala",
+        "twitter" : "#sarahkalala",
+        "assets" :
+        [
+            {
+                "asset1" : "Sarah Kalala, Master in socio-educational and strategic communication at the Catholic University of Congo is a Passionate, Dynamic, Rigorous, Focused young woman.",
+                "asset2" : "Hardworking, she is very involved and does not give up until she has reached her goals; his passion for communication led him to work with various companies in the management of their customer relations and in the organization of events."
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "",
+                "role" : "Front desk : 2020-2021"
+            },
+            {
+                "company" : "",
+                "role" : "Sales officer Token communication"
+            }
+        ],
+        "diplomas" : [],
+        "expertises" : [],
+        "work_countries" : [],
+        "picture" : "assets/img/team/member-3.jpg"
+        }
+    ]
+}

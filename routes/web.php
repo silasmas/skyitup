@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
  */
 // Language
 Route::get('/language/{locale}', [HomeController::class, 'changeLanguage'])->name('change_language');
-// Other links
+// Main links
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/service', [HomeController::class, 'service'])->name('service');
