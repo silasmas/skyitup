@@ -53,7 +53,7 @@ class HomeController extends Controller
             if (Session::has('locale')) {
                 $sessionLocale = Session::get('locale');
     
-                if ($sessionLocale !== 'en') {
+                if ($sessionLocale === 'en') {
                     return view('welcome', [
                         'json_result' => $json_result->en
                     ]);
@@ -67,7 +67,7 @@ class HomeController extends Controller
             } else {
                 $appLocale = app()->getLocale();
     
-                if ($appLocale !== 'en') {
+                if ($appLocale === 'en') {
                     return view('welcome', [
                         'json_result' => $json_result->en
                     ]);
@@ -104,7 +104,7 @@ class HomeController extends Controller
             if (Session::has('locale')) {
                 $sessionLocale = Session::get('locale');
     
-                if ($sessionLocale !== 'en') {
+                if ($sessionLocale === 'en') {
                     return view('inner_page.about', [
                         'json_result' => $json_result->en
                     ]);
@@ -118,7 +118,7 @@ class HomeController extends Controller
             } else {
                 $appLocale = app()->getLocale();
     
-                if ($appLocale !== 'en') {
+                if ($appLocale === 'en') {
                     return view('inner_page.about', [
                         'json_result' => $json_result->en
                     ]);

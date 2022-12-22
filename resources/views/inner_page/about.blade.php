@@ -161,6 +161,10 @@
                             <div class="card-body text-center p-25">
                                 <h3 class="card-title mb-4">{{ $team->names }}</h3>
                                 <span class="primary-color d-block mb-3">{{ $team->role }}</span>
+        @foreach ($team->assets as $asset)
+                                <p>{{ $asset->asset1 }}</p>
+            
+        @endforeach
                                 <ul class="list-inline">
                                     <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
                                     <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
