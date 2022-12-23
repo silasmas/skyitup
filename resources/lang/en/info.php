@@ -3,6 +3,7 @@
 return [
     // Miscellaneous
     'welcome' => 'Welcome',
+    'description' => 'Consulting Approach focused on objectivity and results. Offers real work solutions in digital technology consulting. Contact us. Contractors. Digital solutions and software. Implementation of software and organizational solutions dedicated to the activities of our customers. Software. Material Services. Tailor our procurement process to your needs and save time',
     'llc' => 'LLC',
     'schedule' => 'Schedule:',
     'address' => 'Address',

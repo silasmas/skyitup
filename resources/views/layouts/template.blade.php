@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Consulting Approche axée sur l&#039;objectivité et les résultats offre de véritables solutions de travail en matière de conseil en technologie digitale. Contactez-nous Entrepreneurs Solutions numériques et logiciels Implémentation des solutions logicielles et organisationnelles dédiées aux activités de nos clients. Contactez-nous Logiciel Services Matériels Adopter notre processus d’approvisionnement à vos besoins et économiser du temps et" />
+        <meta name="description" content="@lang('info.description')" />
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-touch-icon.png') }}">
@@ -66,9 +66,9 @@
         <div class="modal fade" id="modalAsyncData" role="dialog">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
-                <div class="modal-content">
+                <div class="modal-content rounded-block">
                     <div class="modal-header p-4 border-0">
-                        <button type="button" class="close p-2 mr-1" data-dismiss="modal" style="font-size: 3rem;">&times;</button>
+                        <button type="button" class="close px-2 py-1 mt-1 mr-1" data-dismiss="modal" style="font-size: 3rem;">&times;</button>
                     </div>
                     <div class="modal-body px-4">
                         <div class="container">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="modal-footer p-4 border-0">
+                    <div class="modal-footer p-5 border-0">
                         <button type="button" class="btn btn-danger btn-round btn-sm text-white" data-dismiss="modal">@lang('info.close')</button>
                     </div>
                 </div>

@@ -3,6 +3,7 @@
 return [
     // Miscellaneous
     'welcome' => 'Bienvenue',
+    'description' => 'Consulting Approche axée sur l\'objectivité et les résultats. Offre de véritables solutions de travail en matière de conseil en technologie digitale. Contactez-nous. Entrepreneurs. Solutions numériques et logiciels. Implémentation des solutions logicielles et organisationnelles dédiées aux activités de nos clients. Logiciel. Services Matériels. Adopter notre processus d\'approvisionnement à vos besoins et économiser du temps',
     'llc' => 'SARL',
     'schedule' => 'Horaire :',
     'address' => 'Adresse',

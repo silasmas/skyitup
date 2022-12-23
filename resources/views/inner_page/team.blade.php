@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Consulting Approche axée sur l&#039;objectivité et les résultats offre de véritables solutions de travail en matière de conseil en technologie digitale. Contactez-nous Entrepreneurs Solutions numériques et logiciels Implémentation des solutions logicielles et organisationnelles dédiées aux activités de nos clients. Contactez-nous Logiciel Services Matériels Adopter notre processus d’approvisionnement à vos besoins et économiser du temps et" />
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-touch-icon.png') }}">

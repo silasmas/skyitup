@@ -251,17 +251,20 @@ $('[href="#"]').click(function () {
         var _this = $(this).get(0);
 
         $(_this).on('click', function (e) {
-            $('#modalAsyncData .modal-body').load($(_this).attr('href'), function () {
-                $('#modalAsyncData').modal({show:true});
-                loadJS();
-            });
+            $('#modalAsyncData').modal({show:true}).attr('data-href', $(_this).attr('href'));
             e.stopPropagation();
             e.stopImmediatePropagation();
 
             return false;
         });
 
-        $('#modalAsyncData').on('hidden.bs.modal', function () {
+        $('#modalAsyncData').on('shown.bs.modal', function () {
+            $('#modalAsyncData .modal-body').load($(this).attr('data-href'), function () {
+                loadJS();
+            });
+
+        }).on('hidden.bs.modal', function () {
+            $(this).removeData('bs.modal');
             $(this).find('.modal-body').html('<div class="container"><div class="row"><div class="col-lg-4 col-sm-6 col-8 mx-auto"><img src="assets/img/ajax-loader.gif" class="img-fluid"></div></div></div>');
         });
     });
