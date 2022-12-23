@@ -265,7 +265,8 @@ $('[href="#"]').click(function () {
 
         }).on('hidden.bs.modal', function () {
             $(this).removeData('bs.modal');
-            $(this).find('.modal-body').html('<div class="container"><div class="row"><div class="col-lg-4 col-sm-6 col-8 mx-auto"><img src="assets/img/ajax-loader.gif" class="img-fluid"></div></div></div>');
+            location.reload();
+            // $(this).find('.modal-body').html('<div class="container"><div class="row"><div class="col-lg-4 col-sm-6 col-8 mx-auto"><img src="assets/img/ajax-loader.gif" class="img-fluid"></div></div></div>');
         });
     });
 

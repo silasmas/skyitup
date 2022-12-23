@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title mt-0 mb-5">
-                            <h1 class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.experience')</h1>
+                            <h2 class="h2-responsive" class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.experience')</h2>
                             <div class="mt-4" style="border-bottom: 5px solid #f7a426;"></div>
                         </div>
     @foreach ($member->experience as $exp)
@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title mt-0 mb-5">
-                            <h1 style="line-height: 5rem;">@lang('info.about.diploma')</h1>
+                            <h2 class="h2-responsive" style="line-height: 5rem;">@lang('info.about.diploma')</h2>
                             <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
                         </div>
     @foreach ($member->diplomas as $diploma)
@@ -94,7 +94,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title mt-0 mb-5">
-                            <h1 class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.expertise')</h1>
+                            <h2 class="h2-responsive" class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.expertise')</h2>
                             <div class="mt-4" style="border-bottom: 5px solid #d83c2a;"></div>
                         </div>
     @foreach ($member->expertises as $exp)
@@ -112,7 +112,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title mt-0 mb-5">
-                            <h1 style="line-height: 5rem;">@lang('info.about.work_countries')</h1>
+                            <h2 class="h2-responsive" style="line-height: 5rem;">@lang('info.about.work_countries')</h2>
                             <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
                         </div>
     @foreach ($member->work_countries as $work_country)
