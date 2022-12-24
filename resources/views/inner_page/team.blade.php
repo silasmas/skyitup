@@ -124,7 +124,8 @@
                                     <img src="{{ asset($other_members->picture) }}" alt="image">
                                     <div class="fix">
                                         <p><a href="{{ route('team.member', ['member_id' => $other_members->id]) }}">{{ $other_members->names }}</a></p>
-                                        <small class="text-truncate">{{ $other_members->role }}</small>
+                                        <p class="text-truncate small">{{ $other_members->role }}</p>
+                                        <small class="text-truncate"><a href="{{ route('team.member', ['member_id' => $other_members->id]) }}" class="btn pl-0 py-3 border-bottom border-warning">@lang('info.details')</a></small>
                                     </div>
                                 </div>
         @endif
