@@ -132,7 +132,7 @@
     @endforeach
                             </div>
 
-                            <a href="{{ $member->facebook }}" class="btn btn-primary btn-round btn-block my-4">@lang('info.menu_about')</a>
+                            <a href="{{ route('about') }}" class="btn btn-primary btn-round btn-block my-4">@lang('info.menu_about')</a>
                         </div>
                         <!-- widget course end -->
                     </div>
