@@ -120,7 +120,7 @@
                             <div class="course-list">
     @foreach ($team as $other_members)
         @if ($other_members->id != $member->id)
-                                <div class="w-cs-single">
+                                <div class="w-cs-single mb-5">
                                     <img src="{{ asset($other_members->picture) }}" alt="image">
                                     <div class="fix">
                                         <p><a href="{{ route('team.member', ['member_id' => $other_members->id]) }}">{{ $other_members->names }}</a></p>
