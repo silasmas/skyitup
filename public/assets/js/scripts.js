@@ -247,28 +247,27 @@ $('[href="#"]').click(function () {
     /*================================
     Modal with asynchronous data
     ==================================*/
-    $('.team-member').each(function (params) {
-        var _this = $(this).get(0);
+    // $('.team-member').each(function (params) {
+    //     var _this = $(this).get(0);
 
-        $(_this).on('click', function (e) {
-            $('#modalAsyncData').modal({show:true}).attr('data-href', $(_this).attr('href'));
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+    //     $(_this).on('click', function (e) {
+    //         $('#modalAsyncData').modal({show:true}).attr('data-href', $(_this).attr('href'));
+    //         e.stopPropagation();
+    //         e.stopImmediatePropagation();
 
-            return false;
-        });
+    //         return false;
+    //     });
 
-        $('#modalAsyncData').on('shown.bs.modal', function () {
-            $('#modalAsyncData .modal-body').load($(this).attr('data-href'), function () {
-                loadJS();
-            });
+    //     $('#modalAsyncData').on('shown.bs.modal', function () {
+    //         $('#modalAsyncData .modal-body').load($(this).attr('data-href'), function () {
+    //             loadJS();
+    //         });
 
-        }).on('hidden.bs.modal', function () {
-            $(this).removeData('bs.modal');
-            location.reload();
-            // $(this).find('.modal-body').html('<div class="container"><div class="row"><div class="col-lg-4 col-sm-6 col-8 mx-auto"><img src="assets/img/ajax-loader.gif" class="img-fluid"></div></div></div>');
-        });
-    });
+    //     }).on('hidden.bs.modal', function () {
+    //         $(this).removeData('bs.modal');
+    //         $(this).find('.modal-body').html('<div class="container"><div class="row"><div class="col-lg-4 col-sm-6 col-8 mx-auto"><img src="assets/img/ajax-loader.gif" class="img-fluid"></div></div></div>');
+    //     });
+    // });
 
     /*================================
     Values block

@@ -150,25 +150,28 @@ class HomeController extends Controller
                 ],
                 'verify'  => false
             ]);
-            $json_result = json_decode($response->getBody(), false);
+            $json_result1 = json_decode($response->getBody(), false);
+            $json_result2 = json_decode($response->getBody(), false);
 
             if (Session::has('locale')) {
                 $sessionLocale = Session::get('locale');
 
                 if ($sessionLocale === 'en') {
-                    foreach ($json_result->en as $team):
+                    foreach ($json_result1->en as $team):
                         if ($team->id === (int) $member_id) {
                             return view('inner_page.team', [
-                                'member' => $team
+                                'member' => $team,
+                                'team' => $json_result2->en
                             ]);
                         }
                     endforeach;
 
                 } else {
-                    foreach ($json_result->fr as $team):
+                    foreach ($json_result1->fr as $team):
                         if ($team->id === (int) $member_id) {
                             return view('inner_page.team', [
-                                'member' => $team
+                                'member' => $team,
+                                'team' => $json_result2->fr
                             ]);
                         }
                     endforeach;
@@ -178,20 +181,22 @@ class HomeController extends Controller
                 $appLocale = app()->getLocale();
 
                 if ($appLocale === 'en') {
-                    foreach ($json_result->en as $team):
+                    foreach ($json_result1->en as $team):
                         if ($team->id === (int) $member_id) {
                             return view('inner_page.team', [
-                                'member' => $team
+                                'member' => $team,
+                                'team' => $json_result2->en
                             ]);
                         }
                     endforeach;
-                    
+
                 } else {
-                    foreach ($json_result->fr as $team):
+                    foreach ($json_result1->fr as $team):
                         // dd($team);
                         if ($team->id === (int) $member_id) {
                             return view('inner_page.team', [
-                                'member' => $team
+                                'member' => $team,
+                                'team' => $json_result2->fr
                             ]);
                         }
                     endforeach;

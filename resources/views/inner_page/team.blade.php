@@ -1,142 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv='cache-control' content='no-cache'>
-        <meta http-equiv='expires' content='0'>
-        <meta http-equiv='pragma' content='no-cache'>
+@extends('layouts.template')
 
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-touch-icon.png') }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon/favicon-32x32.png') }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon/favicon-16x16.png') }}">
-        <link rel="manifest" href="{{ asset('assets/img/favicon/site.webmanifest') }}">
+@section('guest-content')
 
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        
-        <!-- All css here -->
-        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-        <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/slicknav.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/typography.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/default-css.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+        <!-- crumbs area start -->
+        <div id="aboutPage" class="crumbs-area">
+            <div class="container">
+                <div class="crumb-content">
+                    <p class="mb-2"><a href="{{ route('home') }}" class="text-warning">@lang('info.menu_home')</a> &raquo; <a href="{{ route('about') }}" class="text-warning">@lang('info.menu_about')</a> &raquo; @lang('info.home.team_title')</p>
+                    <h4 class="crumb-title"><span>@lang('info.home.team_title_1')</span> @lang('info.home.team_title_2')</h4>
+                </div>
+            </div>
+        </div>
+        <!-- crumbs area end -->
 
-        <!-- modernizr css -->
-        <script src="{{ asset('assets/js/vendor/modernizr-2.8.3.min.js') }}"></script>
-
-        <title>Document</title>
-    </head>
-    <body>
         <!-- member details area start -->
-        <div id="member" class="about-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="{{ asset($member->picture) }}" alt="{{ $member->names }}" class="rounded-block mr-sm-5 mb-4 float-left">
-                        <h1 class="h1-responsive mb-4" style="line-height: 4.5rem">{{ $member->names }}</h1>
-                        <h4 class="h4-responsive"><span class="primary-color d-block mb-3">{{ $member->role }}</span></h4>
-@foreach ($member->assets as $asset)
-                        <p>{{ $asset->asset1 }}</p>
-                        <p>{{ $asset->asset2 }}</p>
-@endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div id="member" class="about-area pt--50 pb--30">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="{{ asset($member->picture) }}" alt="{{ $member->names }}" class="rounded-block mr-sm-5 mb-4 float-left">
+                                    <h1 class="h1-responsive mb-4" style="line-height: 4.5rem">{{ $member->names }}</h1>
+                                    <h4 class="h4-responsive"><span class="green-text-1 d-block mb-3">{{ $member->role }}</span></h4>
+                                    <p>
+                                        <a href="{{ $member->facebook }}" class="btn btn-primary rounded-circle mx-3" style="padding: 1.1rem 1.5rem 0.9rem 1.5rem;"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a>
+                                        <a href="{{ $member->twitter }}" class="btn btn-primary rounded-circle mx-3" style="padding: 1.1rem 1.05rem 0.9rem 1.05rem;"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a>
+                                    </p>
 
-@if (!empty($member->experience))
-        <div id="member" class="about-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title mt-0 mb-5">
-                            <h2 class="h2-responsive" class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.experience')</h2>
-                            <div class="mt-4" style="border-bottom: 5px solid #f7a426;"></div>
-                        </div>
-    @foreach ($member->experience as $exp)
-                        <h5 class="h5-responsive mt-4 mb-2">{{ $exp->company }}</h5>
-                        <p class="m-0">{{ $exp->role }}</p>
+    @foreach ($member->assets as $asset)
+                                    <p style="text-align: justify;">{{ $asset->asset1 }}</p>
+                                    <p style="text-align: justify;">{{ $asset->asset2 }}</p>
     @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
-@endif
-
-@if (!empty($member->diplomas))
-        <div id="member" class="about-area pt--40 pb--20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title mt-0 mb-5">
-                            <h2 class="h2-responsive" style="line-height: 5rem;">@lang('info.about.diploma')</h2>
-                            <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
+                                </div>
+                            </div>
                         </div>
-    @foreach ($member->diplomas as $diploma)
-                        <p class="mb-3"><i class="fa fa-angle-right green-text-1" style="font-size: 3rem; vertical-align: -3px;"></i> {{ $diploma->diploma }}</p>
-    @endforeach
                     </div>
-                </div>
-            </div>
-        </div>
-@endif
 
-@if (!empty($member->expertises))
-        <div id="member" class="about-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title mt-0 mb-5">
-                            <h2 class="h2-responsive" class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.expertise')</h2>
-                            <div class="mt-4" style="border-bottom: 5px solid #d83c2a;"></div>
+    @if (!empty($member->experience))
+                    <div id="member" class="about-area pb--50">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title mt-0 mb-5">
+                                        <h2 class="h2-responsive" class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.experience')</h2>
+                                        <div class="mt-4" style="border-bottom: 5px solid #f7a426;"></div>
+                                    </div>
+        @foreach ($member->experience as $exp)
+                                    <h5 class="h5-responsive mt-4 mb-2">{{ $exp->company }}</h5>
+                                    <p class="m-0">{{ $exp->role }}</p>
+        @endforeach
+                                </div>
+                            </div>
                         </div>
-    @foreach ($member->expertises as $exp)
-                        <p class="mb-3"><i class="fa fa-angle-right red-text" style="font-size: 3rem; vertical-align: -3px;"></i> {{ $exp->expertise }}</p>
-    @endforeach
                     </div>
-                </div>
-            </div>
-        </div>
-@endif
+    @endif
 
-@if (!empty($member->work_countries))
-        <div id="member" class="about-area pt--40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title mt-0 mb-5">
-                            <h2 class="h2-responsive" style="line-height: 5rem;">@lang('info.about.work_countries')</h2>
-                            <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
+    @if (!empty($member->diplomas))
+                    <div id="member" class="about-area pb--50">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title mt-0 mb-5">
+                                        <h2 class="h2-responsive" style="line-height: 5rem;">@lang('info.about.diploma')</h2>
+                                        <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
+                                    </div>
+        @foreach ($member->diplomas as $diploma)
+                                    <p class="mb-3"><i class="fa fa-angle-right green-text-1" style="font-size: 3rem; vertical-align: -3px;"></i> {{ $diploma->diploma }}</p>
+        @endforeach
+                                </div>
+                            </div>
                         </div>
-    @foreach ($member->work_countries as $work_country)
-                        <h5 class="h5-responsive mt-4 mb-2">{{ $work_country->region }}</h5>
-                        <p class="m-0">{{ $work_country->countries }}</p>
-    @endforeach
                     </div>
+    @endif
+
+    @if (!empty($member->expertises))
+                    <div id="member" class="about-area pb--50">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title mt-0 mb-5">
+                                        <h2 class="h2-responsive" class="mt-lg-4" style="line-height: 5rem;">@lang('info.about.expertise')</h2>
+                                        <div class="mt-4" style="border-bottom: 5px solid #d83c2a;"></div>
+                                    </div>
+        @foreach ($member->expertises as $exp)
+                                    <p class="mb-3"><i class="fa fa-angle-right red-text" style="font-size: 3rem; vertical-align: -3px;"></i> {{ $exp->expertise }}</p>
+        @endforeach
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    @endif
+
+    @if (!empty($member->work_countries))
+                    <div id="member" class="about-area pb--50">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title mt-0 mb-5">
+                                        <h2 class="h2-responsive" style="line-height: 5rem;">@lang('info.about.work_countries')</h2>
+                                        <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
+                                    </div>
+        @foreach ($member->work_countries as $work_country)
+                                    <h5 class="h5-responsive mt-4 mb-2">{{ $work_country->region }}</h5>
+                                    <p class="m-0">{{ $work_country->countries }}</p>
+        @endforeach
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    @endif
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <!-- widget course start -->
+                        <div class="widget widget-course" style="background-color: transparent;">
+                            <h4 class="widget-title mt-lg-4">@lang('info.home.team_other_members')</h4>
+                            <div class="course-list">
+    @foreach ($team as $other_members)
+        @if ($other_members->id != $member->id)
+                                <div class="w-cs-single">
+                                    <img src="{{ asset($other_members->picture) }}" alt="image">
+                                    <div class="fix">
+                                        <p><a href="{{ route('team.member', ['member_id' => $other_members->id]) }}">{{ $other_members->names }}</a></p>
+                                        <small class="text-truncate">{{ $other_members->role }}</small>
+                                    </div>
+                                </div>
+        @endif
+    @endforeach
+                            </div>
+
+                            <a href="{{ $member->facebook }}" class="btn btn-primary btn-round btn-block my-4">@lang('info.menu_about')</a>
+                        </div>
+                        <!-- widget course end -->
+                    </div>
+                    <!-- sidebar end -->
                 </div>
             </div>
         </div>
-@endif
 
-        <!-- member details area end -->
-
-
-        <!-- jquery latest version -->
-        <script src="{{ asset('assets/js/vendor/jquery-2.2.4.min.js') }}"></script>
-        <!-- bootstrap 4 js -->
-        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-        <!-- others plugins -->
-        <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-        <script src="{{ asset('assets/js/jquery.slicknav.min.js') }}"></script>
-        <script src="{{ asset('assets/js/plugins.js') }}"></script>
-        <script src="{{ asset('assets/js/scripts.js') }}"></script>
-    </body>
-</html>
+@endsection

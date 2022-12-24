@@ -76,11 +76,10 @@ return [
         ],
         // Team
         'team_title' => 'Our team',
+        'team_title_1' => 'Our',
+        'team_title_2' => 'team',
         'team_subtitle' => 'Leadership',
-        'team_function' => [
-            'c_e_o' => 'Chief Executive Officer',
-            'c_o_o' => 'Chief Finance Officer'
-        ],
+        'team_other_members' => 'Other members',
         // Contact
         'contact_title' => 'Contact',
         'contact_description' => 'Call us directly for assistance or more information.',

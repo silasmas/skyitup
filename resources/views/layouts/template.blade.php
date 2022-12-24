@@ -38,6 +38,10 @@
             @lang('info.about.big_title')
 @endif
 
+@if (Route::current()->getName() == 'team.member')
+            {{ $member->names }}
+@endif
+
 @if (Route::current()->getName() == 'service')
             @lang('info.service.big_title')
 @endif

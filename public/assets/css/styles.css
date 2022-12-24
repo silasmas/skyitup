@@ -2226,7 +2226,7 @@ h4.comment-title {
 }
 
 .w-cs-single img {
-  max-width: 120px;
+  max-width: 70px;
   float: left;
   margin-right: 15px;
 }
@@ -2672,7 +2672,12 @@ h4.comment-title {
 
 #member img {
   width: 35rem;
-  ;
+}
+
+@media screen and (max-width: 1040px) and (min-width: 480px) {
+  #member img {
+    width: 28rem;
+  }      
 }
 
 /* Text */
