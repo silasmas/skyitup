@@ -98,7 +98,7 @@
             },
             {
                 "region" : "Afrique & Moyen orient",
-                "countries" : "RDC, Egypte, Tunisie, Algérie, Côte d’Ivoire, Sierra Leone, Nigéria, Ethiopie, Rwanda, Burundi, Angola, Namibie, République d’Afrique du Sud, Liban, Arabie Saoudite"
+                "countries" : "RDC, Egypte, Tunisie, Algérie, Côte d'Ivoire, Sierra Leone, Nigéria, Ethiopie, Rwanda, Burundi, Angola, Namibie, République d'Afrique du Sud, Liban, Arabie Saoudite"
             },
             {
                 "region" : "Asie",
@@ -120,7 +120,7 @@
         "assets" :
         [
             {
-                "asset1" : "Kungana Kola René a plus de 30 ans d’expérience en informatique de gestion et pilotage des projets d’implémentation de systèmes d’information ERP, développement du Business et de la direction de projets métiers à travers le monde Heineken en Afrique.",
+                "asset1" : "Kungana Kola René a plus de 30 ans d'expérience en informatique de gestion et pilotage des projets d'implémentation de systèmes d'information ERP, développement du Business et de la direction de projets métiers à travers le monde Heineken en Afrique.",
                 "asset2" : ""
             }
         ],
@@ -136,7 +136,7 @@
             },
             {
                 "company" : "",
-                "role" : "Il maitrise aussi le progiciel de ressources humaines SAP-success Factor. Il parle couramment Anglais et Français, il a vécu et travaillé dans nombreux Pays Africains tels que : le Nigeria, l’Ethiopie, la Sierra Leone, le Rwanda, le Burundi, la Cote d’ivoire, et le Tchad."
+                "role" : "Il maitrise aussi le progiciel de ressources humaines SAP-success Factor. Il parle couramment Anglais et Français, il a vécu et travaillé dans nombreux Pays Africains tels que : le Nigeria, l'Ethiopie, la Sierra Leone, le Rwanda, le Burundi, la Côte d'ivoire, et le Tchad."
             }
         ],
         "diplomas" : [],
@@ -153,8 +153,8 @@
         "assets" :
         [
             {
-                "asset1" : "Sarah Kalala, Master en communication socio-éducative et stratégique à l’université catholique du Congo est une jeune femme Passionnée, Dynamique, Rigoureuse, Focus.",
-                "asset2" : "Travailleuse, elle est très impliquée et ne lâche rien tant qu’elle n’a pas encore atteint ses objectifs ; sa passion pour la communication lui a conduit à travailler avec diverses entreprises dans la gestion de leur relation client et dans l’organisation des évènements."
+                "asset1" : "Sarah Kalala, Master en communication socio-éducative et stratégique à l'université catholique du Congo est une jeune femme Passionnée, Dynamique, Rigoureuse, Focus.",
+                "asset2" : "Travailleuse, elle est très impliquée et ne lâche rien tant qu'elle n'a pas encore atteint ses objectifs ; sa passion pour la communication lui a conduit à travailler avec diverses entreprises dans la gestion de leur relation client et dans l'organisation des évènements."
             }
         ],
         "experience" :
