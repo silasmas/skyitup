@@ -117,19 +117,55 @@ return [
         'big_title' => 'Our services',
         'big_title_1' => 'Our',
         'big_title_2' => 'services',
-        'title1' => 'Consulting',
+        'title1' => 'Consulting Service',
         'content1' => 'SkyITup LLC\'s Consulting Services team seizes every opportunity with a deep foundation in best practice training and methodologies. Our objective and results-oriented approach offers real working solutions in digital technology consulting. Many industries have applications specific to their industry and SkyITup LLC is very knowledgeable with many of them and if we are unfamiliar we will work with a software expert or learn the technology so we can help support it .',
         'title2' => 'Digital Solutions and Software',
-        'content2_1' => 'SkyItUp LLC is staffed with highly qualified consultants. Each serves as a single point of contact for all your software needs. Buying the right software can benefit your business in several ways. Your business software selection is critical to your overall success. There are many products that can easily reduce the time it takes to complete daunting tasks, which will help you optimize your time and save money; and devote it to more important matters.',
-        'content2_2' => 'We not only offer the best prices available, but you will experience exceptional customer service. SkyITup LLC offers the Design and development and the realization of your tailor-made web applications in a few steps by our Experts. We use the latest technologies, namely PHP 7 (Symfony 3/4/5), etc.',
-        'title3' => 'Materials',
-        'content3_1' => 'The SkyItUp LLC team adapts its procurement process to your needs and saves you time and money. We not only offer the best prices available, but you will experience exceptional customer service. Whether it\'s servers, desktops, networking equipment, printers, mobile devices and laptops, we can make sure you have all the latest hardware technology available.',
-        'content3_2' => 'SkyITup LLC will also review your expenses with you to help identify areas where you might be able to save money in the future without giving up things like performance and stability.',
-        'title4' => 'Security',
-        'content4' => 'SkyITup LLC is a proven leader in security solutions for small and medium businesses. We provide network security tools, 24/7 monitoring, enterprise antivirus and malware prevention, external vulnerability audits, employee awareness training, and immediate problem resolution. problems.',
-        'title5' => 'Assistance',
-        'content5_1' => 'SkyITup LLC\'s IT support services are staffed by certified IT professionals and are available to assist you by phone, email or through our secure web portal. SkyITup LLC offers first-class enterprise IT support service and remote network monitoring services.',
-        'content5_2' => 'Our IT support services ensure that your critical IT systems and applications are always operational and that any technical issues are resolved quickly and accurately by knowledgeable and helpful technicians. Whether it\'s printing issues, connectivity issues, viruses, device synchronization and more, the experts at SkyITup LLC can help.',
+        'content2_1' => 'SkyITUp SARL is staffed with highly qualified consultants. Each serves as a single point of contact for all your software needs. Buying the right software can benefit your business in several ways. Your business software selection is critical to your overall success. There are many products that can easily reduce the time it takes to complete daunting tasks, which will help you optimize your time and save money; and devote it to more important matters.',
+        'content2_2' => 'We not only offer the best prices available, but you will experience exceptional customer service.',
+        'content2_3' => [
+            'text' => 'We have a varied portfolio which can be summarized as follows:',
+            'item1' => 'Design, software development specialized on measures;',
+            'item2' => 'Design, development of a website according to international standards;',
+            'item3' => 'Human Resources management software (full cycle from hiring to end-of-career; including appraisals, staff development, promotion, payroll and other benefits management);',
+            'item4' => 'OHADA financial and accounting software integrated with purchasing, invoicing, stock, electronic approvals etc. ;',
+            'item5' => 'Physical and electronic security software (electronic entry-exit management, surveillance camera;',
+            'item6' => 'Electronic archiving or saving of documents.'
+        ],
+        'title3' => 'IT infrastructure',
+        'content3_1' => [
+            'inner_title1' => 'On the hardware level',
+            'content1' => 'Our teams are vocalizing to offer you our innovative services on materials and equipment including the non-exhaustive list below: Servers, Computers, Scanners, Photocopiers, Printers, Switch, Hub, Router, Wifi Router, Data Centre, Wiring, Points Logic, Corrugated Sockets, Personal Inverters, Central Inverters, Internet of Things Ido or IoT, Video Surveillance Camera, VoIP - Business Telephony, Emergency Power Source (Solar Panels).',
+            'inner_title2' => 'On the Networking level (computer networks)',
+            'content2' => 'With regard to the computer network, our experts are ready to assist and advise on the choice of solutions according to the current standard. Below is a non-exhaustive list: Internet connection, Domain, number of email addresses, number of websites, Domain provider and subscription (Terms of payment and contract), Wi-Fi routers.',
+            'inner_title3' => 'On the security level',
+            'content3' => 'Below is a non-exhaustive list: Firewall, Intranet access security, physical security (Access control, Video surveillance), etc.'
+        ],
+        'title4' => 'Digital Transformation Training',
+        'content4' => [
+            'text' => 'Our training courses are based on your needs and aim to raise the quality of your human resources in digital transformation and infrastructure.',
+            'item1' => 'Business management software',
+            'item2' => [
+                'text' => 'Microsoft Office 365 with the following modules:',
+                'inner_item1' => 'Introduction to digital (Internet, social networks, internet & telephone integration, online purchases and payment; video conference, etc.);',
+                'inner_item2' => 'Microsoft Outlook (Electronic Messaging);',
+                'inner_item3' => 'Microsoft Teams (collaborative tools);',
+                'inner_item4' => 'Microsoft Word (Word processing);',
+                'inner_item5' => 'Microsoft Excel (Spreadsheet);',
+                'inner_item6' => 'Microsoft PowerPoint (Presentation & Graphics);',
+                'inner_item7' => 'Microsoft Access (Database management);',
+                'inner_item8' => 'Microsoft Project (Gestion de projets).',
+            ],
+            'item3' => [
+                'text' => 'Sécurité Informatique :',
+                'inner_item1' => 'Sensibilisation à la sécurité informatique ;',
+                'inner_item2' => 'Cybercriminalité.'
+            ],
+        ],
+        'title5' => 'Assistance Service',
+        'content5_1' => 'SkyITup LLC has more than 30 years of experience in managing and supporting computer networks for small and medium-sized businesses.',
+        'inner_title5' => 'We are here to help you',
+        'content5_2' => 'SkyITup LLC\'s IT Support Services are staffed by certified IT professionals and are available to assist you by phone, email or through our secure web portal. SkyITup LLC offers first class enterprise IT support service and remote network monitoring services.',
+        'content5_3' => 'Our IT support services ensure that your critical IT systems and applications are always operational and that any technical issues are resolved quickly and accurately by knowledgeable and helpful technicians. Whether it\'s printing issues, connectivity issues, viruses, device synchronization and more, the experts at SkyITup LLC can help.'
     ],
 
     // Realization
@@ -138,6 +174,6 @@ return [
         'big_title_1' => 'Our',
         'big_title_2' => 'realizations',
         'title1' => '',
-        'content1' => '',
+        'content1' => ''
     ],
 ];

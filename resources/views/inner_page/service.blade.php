@@ -46,12 +46,24 @@
                     <div class="col-lg-7">
                         <div class="about-left-content">
                             <p>@lang('info.service.content2_1')</p>
-                            <p class="m-lg-0">@lang('info.service.content2_2')</p>
+                            <p>@lang('info.service.content2_2')</p>
                         </div>
                     </div>
 
                     <div class="col-lg-5">
                         <div class="mb-lg-0 mb-4 rounded-block overflow-hidden" style="height: 35rem; background: url({{ asset('assets/img/services/service-2.jpg') }}); background-size: cover;"></div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="about-left-content">
+                            <p class="mb-3">@lang('info.service.content2_3.text')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content2_3.item1')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content2_3.item2')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content2_3.item3')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content2_3.item4')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content2_3.item5')</p>
+                            <p class="m-0"><i class="fa fa-check text-warning"></i> @lang('info.service.content2_3.item6')</li>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,8 +79,18 @@
                         </div>
 
                         <div class="about-left-content">
-                            <p>@lang('info.service.content3_1')</p>
-                            <p class="m-lg-0">@lang('info.service.content3_2')</p>
+                            <h4 class="h4-responsive">@lang('info.service.content3_1.inner_title1')</h4>
+                            <p>@lang('info.service.content3_1.content1')</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-5 order-lg-7">
+                        <div class="about-left-content">
+                            <h4 class="h4-responsive">@lang('info.service.content3_1.inner_title2')</h4>
+                            <p>@lang('info.service.content3_1.content2')</p>
+
+                            <h4 class="h4-responsive">@lang('info.service.content3_1.inner_title3')</h4>
+                            <p>@lang('info.service.content3_1.content3')</p>
                         </div>
                     </div>
 
@@ -89,7 +111,22 @@
                         </div>
 
                         <div class="about-left-content">
-                            <p>@lang('info.service.content4')</p>
+                            <p>@lang('info.service.content4.text')</p>
+                            <p class="mb-3">@lang('info.service.content4.item1')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content4.item1')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content4.item2.text')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item1')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item2')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item3')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item4')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item5')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item6')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item7')</p>
+                            <p class="mb-3 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item2.inner_item8')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content4.item3.text')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item3.inner_item1')</p>
+                            <p class="mb-2 ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item3.inner_item2')</p>
+                            <p class="ml-4"><i class="fa fa-check mr-3 green-text-1"></i>@lang('info.service.content4.item3.inner_item3')</p>
                         </div>
                     </div>
 
@@ -111,7 +148,9 @@
 
                         <div class="about-left-content">
                             <p>@lang('info.service.content5_1')</p>
-                            <p class="m-lg-0">@lang('info.service.content5_2')</p>
+                            <p class="mb-3 font-weight-bold text-uppercase">@lang('info.service.inner_title5')</p>
+                            <p>@lang('info.service.content5_2')</p>
+                            <p class="m-lg-0">@lang('info.service.content5_3')</p>
                         </div>
                     </div>
 

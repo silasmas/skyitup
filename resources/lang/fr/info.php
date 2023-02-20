@@ -117,19 +117,55 @@ return [
         'big_title' => 'Nos services',
         'big_title_1' => 'Nos',
         'big_title_2' => 'services',
-        'title1' => 'Consulting',
+        'title1' => 'Service Consulting',
         'content1' => 'L\'équipe des services Consulting de SkyITup SARL saisit chaque opportunité avec une base approfondie dans la formation aux meilleures pratiques et les méthodologies. Notre approche axée sur l\'objectivité et les résultats offre de véritables solutions de travail en matière de conseil en technologie digitale. De nombreuses industries ont des applications spécifiques à leur industrie et SkyITup SARL est très compétent avec un grand nombre d\'entre elles et si nous ne sommes pas familiers, nous collaborerons avec un expert en logiciels ou apprendrons la technologie afin de pouvoir aider à la soutenir.',
         'title2' => 'Solutions Numériques et Logiciels',
-        'content2_1' => 'SkyItUp SARL est doté de consultants hautement qualifiés. Chacun sert de point de contact unique pour tous vos besoins logiciels. L\'achat du bon logiciel peut bénéficier à votre entreprise de plusieurs façons. Votre sélection de logiciels d\'entreprise est essentielle à votre succès global. Il existe de nombreux produits qui peuvent facilement réduire le temps nécessaire pour effectuer des tâches intimidantes, ce qui vous aidera à optimiser votre temps et économiser de l\'argent ; et de le consacrer à des questions plus importantes. ',
-        'content2_2' => 'Nous offrons non seulement les meilleurs prix disponibles, mais vous ferez l\'expérience d\'un service à la clientèle exceptionnel. SkyITup SARL offre la Conception et le développement et la réalisation de vos applications web sur-mesure en quelques étapes par nos Experts. Nous utilisons des dernières technologies à savoir PHP 7 (Symfony 3/4/5), etc.',
-        'title3' => 'Matériels',
-        'content3_1' => 'L\'équipe SkyItUp SARL adapte son processus d\'approvisionnement à vos besoins et vous fait économiser du temps et de l\'argent. Nous offrons non seulement les meilleurs prix disponibles, mais vous ferez l\'expérience d\'un service à la clientèle exceptionnel. Qu\'il s\'agisse de serveurs, d\'ordinateurs de bureau, d\'équipements réseau, d\'imprimantes, d\'appareils mobiles et d\'ordinateurs portables, nous pouvons vous assurer que vous disposez de toutes les dernières technologies matérielles disponibles.',
-        'content3_2' => 'SkyITup SARL examinera également vos dépenses avec vous pour vous aider à identifier les domaines dans lesquels vous pourriez être en mesure d\'économiser de l\'argent à l\'avenir sans renoncer à des choses comme la performance et la stabilité.',
-        'title4' => 'Sécurité',
-        'content4' => 'SkyITup SARL est un leader éprouvé en matière de solutions de sécurité pour les petites et moyennes entreprises. Nous fournissons des outils de sécurité réseau, une surveillance 24 heures sur 24, 7 jours sur 7, un antivirus d\'entreprise et une prévention des logiciels malveillants, des audits de vulnérabilité externes, une formation de sensibilisation des employés et une résolution immédiate des problèmes.',
-        'title5' => 'Assistance',
-        'content5_1' => 'Les services d\'assistance informatique de SkyITup SARL sont composés de professionnels de l\'informatique certifiés et sont disponibles pour vous aider par téléphone, par e-mail ou sur notre portail Web sécurisé. SkyITup SARL offre un service de support informatique d\'entreprise de première classe et des services de surveillance de réseau à distance.',
-        'content5_2' => 'Nos services d\'assistance informatique garantissent que vos systèmes et applications informatiques critiques sont toujours opérationnels et que tous les problèmes techniques sont résolus rapidement et avec précision par des techniciens compétents et serviables. Qu\'il s\'agisse de problèmes d\'impression, de problèmes de connectivité, de virus, de synchronisation des périphériques et plus encore, les experts de SkyITup SARL peuvent vous aider.',
+        'content2_1' => 'SkyITUp SARL est doté de consultants hautement qualifiés. Chacun sert de point de contact unique pour tous vos besoins logiciels. L\'achat du bon logiciel peut bénéficier à votre entreprise de plusieurs façons. Votre sélection de logiciels d\'entreprise est essentielle à votre succès global. Il existe de nombreux produits qui peuvent facilement réduire le temps nécessaire pour effectuer des tâches intimidantes, ce qui vous aidera à optimiser votre temps et économiser de l\'argent ; et de le consacrer à des questions plus importantes.',
+        'content2_2' => 'Nous offrons non seulement les meilleurs prix disponibles, mais vous ferez l\'expérience d\'un service à la clientèle exceptionnel.',
+        'content2_3' => [
+            'text' => 'Nous avons un portefeuille varié se résumant comme suit :',
+            'item1' => 'Conception, développement logiciel spécialisé sur mesures ;',
+            'item2' => 'Conception, développement d\'un site internet suivant les standards internationaux ;',
+            'item3' => 'Logiciel de gestion des Ressources Humaines (cycle complet de l\'embauche à la fin-carrière ; y compris les évaluations, développement du personnel, promotion, la paie et la gestion des autres avantages) ;',
+            'item4' => 'Le logiciel financier et comptable OHADA intégré avec les achats, la facturation, le stock, approbations électroniques etc. ;',
+            'item5' => 'Le logiciel de sécurité physique et électronique (gestion entrée sortie électronique, caméra de surveillance ;',
+            'item6' => 'Archivage ou sauvegarde électroniques des documents.'
+        ],
+        'title3' => 'Infrastructure informatique',
+        'content3_1' => [
+            'inner_title1' => 'Sur le plan Matériel',
+            'content1' => 'Nos équipes se vocalisent pour vous offrir nos services innovants sur les matériels et équipements dont la liste non exhaustive ci-après : Serveurs, Les ordinateurs, Scanners, Photocopieurs, Imprimantes, Switch, Hub, Routeur, Routeur Wifi, Data Centre, Câblages, Points Logiques, Prises ondulées, Onduleurs personnels, Onduleurs Centraux, Internet des Objets Ido ou IoT, Caméra vidéo surveillance, VoIP - Téléphonie d\'entreprise, Source d\'énergie de secours (Panneaux solaires).',
+            'inner_title2' => 'Sur le plan de Networking (Réseaux informatique)',
+            'content2' => 'En ce qui concerne le réseau informatique, nos experts sont prêts à assister et conseiller sur le choix de solutions suivant le standard actuel. Ci-après la liste non exhaustive : Connection Internet, Domaine, nombre d\'adresses mails, nombre de sites web, Fournisseur du domaine et abonnement (Conditions de paiement et contrat), Routeurs Wi-Fi.',
+            'inner_title3' => 'Sur le plan Sécurité',
+            'content3' => 'Ci-après la liste non exhaustive : Firewall, Sécurité d\'accès intranet, sécurité physique (Contrôle d\'accès, Vidéo surveillance), etc.'
+        ],
+        'title4' => 'Formation sur la Transformation Digitale',
+        'content4' => [
+            'text' => 'Nos formations sont basées sur vos besoins ont pour objectif d\'élever la qualité de vos ressources humaines dans la transformation digitale et infrastructures.',
+            'item1' => 'Logiciel métiers de gestion',
+            'item2' => [
+                'text' => 'Microsoft Office 365 avec les modules ci-après :',
+                'inner_item1' => 'Initiation au numérique (Internet, réseaux sociaux, intégration internet & téléphone, Achats et paiement en ligne ; vidéo conférence, etc.) ;',
+                'inner_item2' => 'Microsoft Outlook (Messagerie Électronique) ;',
+                'inner_item3' => 'Microsoft Teams (Outils collaboratif) ;',
+                'inner_item4' => 'Microsoft Word (Traitement de texte) ;',
+                'inner_item5' => 'Microsoft Excel (Tableur) ;',
+                'inner_item6' => 'Microsoft PowerPoint (Présentation & Graphisme) ;',
+                'inner_item7' => 'Microsoft Access (Gestion base de données) ;',
+                'inner_item8' => 'Microsoft Project (Project Management).',
+            ],
+            'item3' => [
+                'text' => 'IT security :',
+                'inner_item1' => 'Computer security awareness;',
+                'inner_item2' => 'Cybercriminality.'
+            ],
+        ],
+        'title5' => 'Service d\'Assistance',
+        'content5_1' => 'SkyITup SARL a plus de 30 ans d\'expérience dans la gestion et le soutien des réseaux informatiques pour les petites et moyennes entreprises.',
+        'inner_title5' => 'Nous sommes là pour vous aider',
+        'content5_2' => 'Les services d\'assistance informatique de SkyITup SARL sont composés de professionnels de l\'informatique certifiés et sont disponibles pour vous aider par téléphone, par e-mail ou sur notre portail Web sécurisé. SkyITup SARL offre un service de support informatique d\'entreprise de première classe et des services de surveillance de réseau à distance.',
+        'content5_3' => 'Nos services d\'assistance informatique garantissent que vos systèmes et applications informatiques critiques sont toujours opérationnels et que tous les problèmes techniques sont résolus rapidement et avec précision par des techniciens compétents et serviables. Qu\'il s\'agisse de problèmes d\'impression, de problèmes de connectivité, de virus, de synchronisation des périphériques et plus encore, les experts de SkyITup SARL peuvent vous aider.'
     ],
 
     // Realization
@@ -138,6 +174,6 @@ return [
         'big_title_1' => 'Nos',
         'big_title_2' => 'réalisations',
         'title1' => '',
-        'content1' => '',
+        'content1' => ''
     ],
 ];

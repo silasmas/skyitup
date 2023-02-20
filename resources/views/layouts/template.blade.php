@@ -253,11 +253,9 @@
                                     <p>contact@skyitupsarl.com</p>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="ml-3"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="ml-3"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li class="ml-3"><a href="#"><i class="fa fa-instagram"></i></a></li>
                                     <li class="ml-3"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                    <li class="ml-3"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="ml-3"><a href="https://www.instagram.com/skyitup_sarl/"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>

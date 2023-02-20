@@ -1,7 +1,3 @@
-<?php
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
-?>
 @extends('layouts.template')
 
 @section('guest-content')
@@ -292,7 +288,7 @@ use GuzzleHttp\Exception\ClientException;
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <img src="{{ asset('assets/img/partners/partner-1.png') }}" alt="image" style="width: 100%">
+                                <img src="{{ asset('assets/img/partners/partner-2.png') }}" alt="image" style="width: 100%">
                             </div>
                         </div>
                     </div>
@@ -300,7 +296,7 @@ use GuzzleHttp\Exception\ClientException;
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <img src="{{ asset('assets/img/partners/partner-1.png') }}" alt="image" style="width: 100%">
+                                <img src="{{ asset('assets/img/partners/partner-3.png') }}" alt="image" style="width: 100%">
                             </div>
                         </div>
                     </div>
@@ -308,7 +304,7 @@ use GuzzleHttp\Exception\ClientException;
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <img src="{{ asset('assets/img/partners/partner-1.png') }}" alt="image" style="width: 100%">
+                                <img src="{{ asset('assets/img/partners/partner-4.png') }}" alt="image" style="width: 100%">
                             </div>
                         </div>
                     </div>
@@ -316,7 +312,15 @@ use GuzzleHttp\Exception\ClientException;
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <img src="{{ asset('assets/img/partners/partner-1.png') }}" alt="image" style="width: 100%">
+                                <img src="{{ asset('assets/img/partners/partner-5.png') }}" alt="image" style="width: 100%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-3 col-6 mx-auto">
+                        <div class="card mb-5">
+                            <div class="card-body">
+                                <img src="{{ asset('assets/img/partners/partner-6.png') }}" alt="image" style="width: 100%">
                             </div>
                         </div>
                     </div>
