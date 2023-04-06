@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="col-lg-5 order-lg-5">
-                        <div class="rounded-block overflow-hidden" style="height: 35rem; background: url({{ asset('assets/img/services/service-3.png') }}); background-size: cover;"></div>
+                        <div class="rounded-block overflow-hidden" style="height: 35rem; background: url({{ asset('assets/img/services/service-3.jpg') }}); background-size: cover;"></div>
                     </div>
                 </div>
             </div>

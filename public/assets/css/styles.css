@@ -42,6 +42,13 @@ body {
   font-size: 16px;
   color: #8c8c8c;
   line-height: 26px;
+  padding-right: 0 !important /* Force Bootstrap to keep padding right to 0*/
+}
+
+/* Force Bootstrap to keep padding right to 0*/
+.modal-padding-overlap[style] {
+  padding-right:0 !important;
+  padding-left: 0 !important;
 }
 
 h1,

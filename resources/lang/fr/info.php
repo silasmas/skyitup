@@ -58,6 +58,18 @@ return [
 
     // Home
     'home' => [
+        // Welcome word
+        'welcome_word' => [
+            'title' => 'Mot de bienvenue',
+            'paragraph1' => 'Le monde d\'aujourd\'hui et demain est facilité par des outils d\'automatisation qui permettent l\'accroissement continuel de la productivité et de la création des valeurs.',
+            'paragraph2' => 'L\'impact social et économique de la numérisation et de la sécurité reste et restera primordial dans les environnements micro et macroéconomique impactant la bonne gouvernance.',
+            'paragraph3' => 'La durabilité et création de valeurs et l\'amélioration des conditions de vie de l\'humanité entière.',
+            'paragraph4' => 'L\'acquisition des connaissances permettant d\'utiliser des outils numériques devient et deviendra de plus en plus obligatoire dans les organisations et les institutions tant publiques que privées.',
+            'paragraph5' => 'SKY IT UP SARL est passionnée à vous offrir les meilleurs outils, les plateformes permettant de piloter/diriger vos affaires et institutions de manière viable.',
+            'paragraph6' => 'Notre riche et longue expérience dans le leadership et dans les outils des gestions (vous garantit) répond à tous vos besoins.',
+            'paragraph7' => 'Soucieux de vous voir émergé dans vos domaines diverses, Sky it up est la solution dont vous avez besoin pour la réussite de vos business.',
+            'paragraph8' => 'Nous sommes ravis de vous savoir connecté à notre site Internet, et nous sommes disponible pour répondre à toutes vos préoccupations.'
+        ],
         // About
         'about_title' => 'A propos',
         'about_mission' => 'Mission',
