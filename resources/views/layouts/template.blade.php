@@ -235,7 +235,6 @@
 
 @yield('guest-content')
 
-
         <!-- footer area start -->
         <footer>
             <div class="footer-top has-color pt--120 pb--30">
@@ -302,6 +301,12 @@
         </footer>
         <!-- footer area end -->
 
+        <!-- scroll top start -->
+        <button id="scrollTop" class="position-fixed d-none btn-warning border-0 rounded-circle" style="z-index: 999; bottom: 3rem; right: 3rem; transition: .5s;">
+            <i class="fa fa-angle-up" style="width: 5rem; height: 5rem; padding: 0.9rem 1rem; font-size: 3rem;"></i>
+        </button>
+        <!-- scroll top end -->
+
         <!-- jquery latest version -->
         <script src="{{ asset('assets/js/vendor/jquery-2.2.4.min.js') }}"></script>
         <!-- bootstrap 4 js -->
@@ -325,6 +330,11 @@
                 $(window).scroll(function () {
                     if ($(document).scrollTop() > 500) {
                         modal.show();
+
+                        $('#scrollTop').removeClass('d-none');
+
+                    } else {
+                        $('#scrollTop').addClass('d-none');
                     }
                 });
 
@@ -333,6 +343,29 @@
 
                 }).on('hidden.bs.modal', function () {
                     modal.dispose();
+                });
+
+                $('#scrollTop').click(function (e) { 
+                    e.preventDefault();
+                    $("html, body").animate({ scrollTop: '0' });
+                });
+            });
+        </script>
+@else
+        <script type="text/javascript">
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(document).scrollTop() > 500) {
+                        $('#scrollTop').removeClass('d-none');
+
+                    } else {
+                        $('#scrollTop').addClass('d-none');
+                    }
+                });
+
+                $('#scrollTop').click(function (e) { 
+                    e.preventDefault();
+                    $("html, body").animate({ scrollTop: '0' });
                 });
             });
         </script>
