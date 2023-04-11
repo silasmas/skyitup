@@ -63,45 +63,6 @@
         </div>
         <!-- prealoader area end -->
 
-        <!-- ============================================================== -->
-        <!-- Modals -->
-        <!-- ============================================================== -->
-        <!-- ======= Welcome word ======= -->
-        <div class="modal fade" id="welcomeWordModal" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
-                <div class="modal-content rounded-block">
-                    <div class="modal-header border-0">
-                        <h1 class="h1 m-0 pt-4 pb-2 px-4 font-weight-bold text-uppercase" style="color: black;">@lang('info.home.welcome_word.title')</h1>
-                        <button type="button" class="close px-2 py-1 mt-1 mr-1" data-dismiss="modal" style="font-size: 3rem;">&times;</button>
-                    </div>
-                    <div class="modal-body px-4">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <img src="{{ asset('assets/img/welcomer.jpg') }}" alt="" class="float-left mr-4 mb-4" width="300">
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph1')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph2')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph3')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph4')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph5')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph6')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph7')</p>
-                                    <p class="mb-4">@lang('info.home.welcome_word.paragraph8')</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer p-5 border-0">
-                        <button type="button" class="btn btn-danger btn-round btn-sm text-white" data-dismiss="modal">@lang('info.close')</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ============================================================== -->
-        <!-- End Modals -->
-        <!-- ============================================================== -->
-
         <!-- header area start -->
         <header id="header">
             <!-- header top area start -->

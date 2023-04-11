@@ -38,6 +38,35 @@
         <div class="about-area ptb--60 bg-light border-top border-bottom border-default">
             <div class="container">
                 <div class="section-title">
+                    <h1 style="line-height: 5rem;">@lang('info.service.title1_')</h1>
+                    <div class="mt-4" style="border-bottom: 5px solid #59153f;"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="about-left-content">
+                            <p class="mb-4">@lang('info.service.content1_1')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content1_2.item1')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content1_2.item2')</p>
+                            <p class="mb-2"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content1_2.item3')</p>
+                            <p class="mb-4"><i class="fa fa-check mr-3 text-warning"></i>@lang('info.service.content1_2.item4')</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="mb-lg-0 mb-4 rounded-block overflow-hidden" style="height: 35rem; background: url({{ asset('assets/img/realizations/realization-2.jpg') }}); background-size: cover;"></div>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="m-0">@lang('info.service.content1_3')</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-area ptb--60 border-top border-bottom border-default">
+            <div class="container">
+                <div class="section-title">
                     <h1 style="line-height: 5rem;">@lang('info.service.title2')</h1>
                     <div class="mt-4" style="border-bottom: 5px solid #155459;"></div>
                 </div>
@@ -69,7 +98,7 @@
             </div>
         </div>
 
-        <div class="about-area ptb--60">
+        <div class="about-area bg-light ptb--60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 order-lg-7">
@@ -101,7 +130,7 @@
             </div>
         </div>
 
-        <div class="about-area ptb--60 bg-light border-top border-bottom border-default">
+        <div class="about-area ptb--60 border-top border-bottom border-default">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -137,7 +166,7 @@
             </div>
         </div>
 
-        <div class="about-area ptb--60">
+        <div class="about-area bg-light ptb--60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 order-lg-7">

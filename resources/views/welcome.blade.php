@@ -81,64 +81,32 @@
         </div>
         <!-- slider area end -->
 
-        <!-- about area start -->
+        <!-- welcome words area start -->
         <div class="course-area py-5 my-5">
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-12">
-                        <div class="section-title">
-                            <span class="text-uppercase">@lang('info.home.about_title')</span>
-                            <h2>@lang('info.home.about_mission') | @lang('info.home.about_ambitions') | @lang('info.home.about_values')</h2>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-4">
-                            <div class="card-body p-25">
-                                <div class="course-meta-title mb-4">
-                                    <div class="course-meta-text">
-                                        <h4 class="h4-responsive font-weight-bold text-uppercase">@lang('info.home.about_mission_title')</h4>
-                                    </div>
-                                </div>
-                                <p class="m-0">@lang('info.home.about_mission_description')</p>
-                            </div>
+                        <div class="bg-image">
+                            <img src="{{ asset('assets/img/welcomer.jpg') }}" alt="" class="float-left mr-4 mb-4" class="img-fluid" style="border-radius: 3rem;">
+                            <div class="mask"></div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-4">
-                            <div class="card-body p-25">
-                                <div class="course-meta-title mb-4">
-                                    <div class="course-meta-text">
-                                        <h4 class="h4-responsive font-weight-bold text-uppercase">@lang('info.home.about_ambitions_title')</h4>
-                                    </div>
-                                </div>
-                                <p class="m-0">@lang('info.home.about_ambitions_description')</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="ourValues" class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-4">
-                            <div class="card-body p-25">
-                                <div class="course-meta-title mb-4">
-                                    <div class="course-meta-text">
-                                        <h4 class="h4-responsive font-weight-bold text-uppercase">@lang('info.home.about_values_title')</h4>
-                                    </div>
-                                </div>
-                                <p class="m-1"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item1')</p>
-                                <p class="m-1"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item2')</p>
-                                <p class="m-1"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item3')</p>
-                                <p class="m-0"><i class="fa fa-angle-right red-text"></i>@lang('info.home.about_values_list.item4')</p>
-                            </div>
-                        </div>
+                    <div class="col-lg-8 col-sm-6 col-12 mx-auto">
+                        <h2 class="mb-4">@lang('info.home.welcome_word.title')</h2>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph1')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph2')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph3')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph4')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph5')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph6')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph7')</p>
+                        <p class="mb-4">@lang('info.home.welcome_word.paragraph8')</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- about area end -->
+        <!-- welcome words area end -->
 
         <!-- team area start -->
         <div class="teacher-area pt--50 pb--70 bg-light">
@@ -153,22 +121,26 @@
                 </div>
 
                 <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="row">
     @foreach ($json_result as $team)
-                    <div class="col-lg-4 col-sm-6 col-12 mx-auto">
-                        <div class="card mb-5 rounded-block overflow-hidden">
-                            <img src="{{ asset($team->picture) }}" alt="image">
-                            <div class="card-body text-center p-25">
-                                <h3 class="card-title mb-4">{{ $team->names }}</h3>
-                                <span class="primary-color d-block mb-3">{{ $team->role }}</span>
-                                <ul class="list-inline">
-                                    <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
-                                    <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
-                                    <a href="{{ route('team.member', ['member_id' => $team->id]) }}" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
-                                </ul>
+                            <div class="col-lg-6 col-sm-6 col-12 mx-auto">
+                                <div class="card mb-5 rounded-block overflow-hidden">
+                                    <img src="{{ asset($team->picture) }}" alt="image">
+                                    <div class="card-body text-center p-25">
+                                        <h3 class="card-title mb-4">{{ $team->names }}</h3>
+                                        <span class="primary-color d-block mb-3">{{ $team->role }}</span>
+                                        <ul class="list-inline">
+                                            <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
+                                            <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                            <a href="{{ route('team.member', ['member_id' => $team->id]) }}" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>    
     @endforeach
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

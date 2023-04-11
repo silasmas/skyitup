@@ -131,6 +131,15 @@ return [
         'big_title_2' => 'services',
         'title1' => 'Consulting Service',
         'content1' => 'SkyITup team possess more than 30 years of experience in the management, implementation of ERP projects , IT infrastructure projects  and support for large, medium and small companies as well as public and non-governmental institutions. We are willing to advise our customers in solving their problem.',
+        'title1_' => 'Support and Assistance',
+        'content1_1' => 'For all your digital transformation projects in the process of being implemented or already implemented, our teams are ready to provide you with the appropriate support and assistance on (1) validation of the configuration and maintenance of your system, (2) maintenance and the validation of basic data and its settings.<br>See below the list:',
+        'content1_2' => [
+            'item1' => 'Configuration of fixed and variable parameters according to the legal requirement.',
+            'item2' => 'Codification, formatting and updating of basic data after cleansing the files:',
+            'item3' => 'Preparation of the accounting migration of the balances after the closing of all the modules (Purchases, Sales, Stock, etc.);',
+            'item4' => 'Migration of general ledger and subledger (Customers; Suppliers, various debtors and creditors, staff, stock, etc.) and this, after all the work of framing balances of subledger accounts and general ledger accounts balances.'
+        ],
+        'content1_3' => 'For any set up of an organization of a secure modern office with collaborative tools and mobility, our teams are ready to support you in installing the minimum IT infrastructure of your choice (on site or hosted) and office software for you, that felicitate a smooth start of digitalization.',
         'title2' => 'Digital Solutions and Software',
         'content2_1' => 'SkyITUp is staffed with highly qualified consultants. procuring the right software can benefit your business in several ways. Your business software selection is critical to your overall success. There are many smart solutions that can significantly increase the productivity and efficiency of your organization. this will allow you to make significant savings and therefore a sustainable added value to customers, shareholders and the socio-economic environment.',
         'content2_2' => 'We not only offer the best prices available, but you will experience exceptional customer service.',

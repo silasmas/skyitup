@@ -131,6 +131,15 @@ return [
         'big_title_2' => 'services',
         'title1' => 'Service Consulting',
         'content1' => 'L\'équipe des services Consulting de SkyITup saisit chaque opportunité avec une base approfondie dans la formation aux meilleures pratiques et les méthodologies. Notre approche axée sur l\'objectivité et les résultats offre de véritables solutions de travail en matière de conseil en technologie digitale. De nombreuses industries ont des applications spécifiques à leur industrie et SkyITup est très compétent avec un grand nombre d\'entre elles et si nous ne sommes pas familiers, nous collaborerons avec un expert en logiciels ou apprendrons la technologie afin de pouvoir aider à la soutenir.',
+        'title1_' => 'Support et Assistance',
+        'content1_1' => 'Pour tous vos projets de transformation digitale encours d\'implémentation ou déjà implémentés, nos équipes sont prêtes à vous apporter le support et assistance appropriés sur (1) la validation de la configuration et de la maintenance de votre système, (2) la maintenance et la validation des données de bases et ses paramétrages.<br>Il s\'agit de :',
+        'content1_2' => [
+            'item1' => 'Configuration des paramètres fixes et variables conformément à la loi.',
+            'item2' => 'Codification, formatage et mise à jour des données de base après toilettage des fichiers :',
+            'item3' => 'Préparation de la migration comptable des soldes après les bouclages de tous les modules (Achats, Ventes, Stock, etc.) ;',
+            'item4' => 'Migration des balances générales et des tiers (Clients ; Fournisseurs, débiteurs et créditeurs divers, personnel, stock, etc.) et ce, après tous les travaux de cadrage soldes des comptes auxiliaires et soldes des comptes généraux.'
+        ],
+        'content1_3' => 'Pour toute création ou l’organisation du Bureau moderne sécurisé avec des outils collaboratifs et la mobilité, nos équipes sont prêtes à vous accompagner sur l’installation de l’infrastructures informatique minimum de votre choix (sur place ou hébergé) et logiciels bureautiques pour vous permettre le démarrage avec le numérique.',
         'title2' => 'Solutions Numériques et Logiciels',
         'content2_1' => 'SkyITUp est doté de consultants hautement qualifiés. Chacun sert de point de contact unique pour tous vos besoins logiciels. L\'achat du bon logiciel peut bénéficier à votre entreprise de plusieurs façons. Votre sélection de logiciels d\'entreprise est essentielle à votre succès global. Il existe de nombreux produits qui peuvent facilement réduire le temps nécessaire pour effectuer des tâches intimidantes, ce qui vous aidera à optimiser votre temps et économiser de l\'argent ; et de le consacrer à des questions plus importantes.',
         'content2_2' => 'Nous offrons non seulement les meilleurs prix disponibles, mais vous ferez l\'expérience d\'un service à la clientèle exceptionnel.',
