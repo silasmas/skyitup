@@ -4,7 +4,7 @@ return [
     // Miscellaneous
     'welcome' => 'Bienvenue',
     'description' => 'Consulting Approche axée sur l\'objectivité et les résultats. Offre de véritables solutions de travail en matière de conseil en technologie digitale. Contactez-nous. Entrepreneurs. Solutions numériques et logiciels. Implémentation des solutions logicielles et organisationnelles dédiées aux activités de nos clients. Logiciel. Services Matériels. Adopter notre processus d\'approvisionnement à vos besoins et économiser du temps',
-    'llc' => 'SARL',
+    'llc' => '',
     'schedule' => 'Horaire :',
     'address' => 'Adresse',
     'phone' => 'Téléphone',
@@ -15,7 +15,7 @@ return [
     'read_more' => 'Lire la suite',
     'details' => 'Détails',
     'all_right_reserved' => 'Tous droits réservés',
-    'company_description' => 'SkyITup SARL est une Entreprise de Services du Numérique basée à Kinshasa.',
+    'company_description' => 'SkyITup est une Entreprise de Services du Numérique basée à Kinshasa.',
     'company_address' => '25, Avenue de l\'Equateur, Commune de la Gombe Immeuble MK Tower, 2e niveau, local 202',
 
     // Menu
@@ -65,7 +65,7 @@ return [
             'paragraph2' => 'L\'impact social et économique de la numérisation et de la sécurité reste et restera primordial dans les environnements micro et macroéconomique impactant la bonne gouvernance.',
             'paragraph3' => 'La durabilité et création de valeurs et l\'amélioration des conditions de vie de l\'humanité entière.',
             'paragraph4' => 'L\'acquisition des connaissances permettant d\'utiliser des outils numériques devient et deviendra de plus en plus obligatoire dans les organisations et les institutions tant publiques que privées.',
-            'paragraph5' => 'SKY IT UP SARL est passionnée à vous offrir les meilleurs outils, les plateformes permettant de piloter/diriger vos affaires et institutions de manière viable.',
+            'paragraph5' => 'SKY IT UP est passionnée à vous offrir les meilleurs outils, les plateformes permettant de piloter/diriger vos affaires et institutions de manière viable.',
             'paragraph6' => 'Notre riche et longue expérience dans le leadership et dans les outils des gestions (vous garantit) répond à tous vos besoins.',
             'paragraph7' => 'Soucieux de vous voir émergé dans vos domaines diverses, Sky it up est la solution dont vous avez besoin pour la réussite de vos business.',
             'paragraph8' => 'Nous sommes ravis de vous savoir connecté à notre site Internet, et nous sommes disponible pour répondre à toutes vos préoccupations.'
@@ -77,7 +77,7 @@ return [
         'about_mission_description' => 'Notre mission est de dotée de capacité à toute personne ou organisation de produire plus dans un temps record.',
         'about_ambitions' => 'Ambitions',
         'about_ambitions_title' => 'Nos ambitions',
-        'about_ambitions_description' => 'SKYITUP SARL à l\'ambition de continuer dans l\'amélioration de l\'environnement, du social, de l\'économie de la population et de la gouvernance en offrant des solutions de transformation digitale qui permettent l\'élévation de la qualité socio-économique du monde et de la population.',
+        'about_ambitions_description' => 'SKYITUP à l\'ambition de continuer dans l\'amélioration de l\'environnement, du social, de l\'économie de la population et de la gouvernance en offrant des solutions de transformation digitale qui permettent l\'élévation de la qualité socio-économique du monde et de la population.',
         'about_values' => 'Valeurs',
         'about_values_title' => 'Nos valeurs',
         'about_values_list' => [
@@ -120,7 +120,7 @@ return [
         'diploma' => 'Diplôme et formation',
         'expertise' => 'Expertise',
         'work_countries' => 'Pays de travail',
-        'about_content1' => 'SKYITUP SARL une Entreprise de Services du Numérique, basée à Kinshasa, fondée et dirigée par une équipe de professionnels possédant une longue expérience dans le leadership international et principalement dans le continent Africain dans les nouvelles technologies de l\'information et de la communication.',
+        'about_content1' => 'SKYITUP une Entreprise de Services du Numérique, basée à Kinshasa, fondée et dirigée par une équipe de professionnels possédant une longue expérience dans le leadership international et principalement dans le continent Africain dans les nouvelles technologies de l\'information et de la communication.',
         'about_content2' => 'Nous offrons et fournissons un portefeuille bien riche de solutions Intelligentes adaptées à l\'environnement socio-économique et aux entités pour une meilleur valeur ajoutée.',
     ],
 
@@ -130,9 +130,9 @@ return [
         'big_title_1' => 'Nos',
         'big_title_2' => 'services',
         'title1' => 'Service Consulting',
-        'content1' => 'L\'équipe des services Consulting de SkyITup SARL saisit chaque opportunité avec une base approfondie dans la formation aux meilleures pratiques et les méthodologies. Notre approche axée sur l\'objectivité et les résultats offre de véritables solutions de travail en matière de conseil en technologie digitale. De nombreuses industries ont des applications spécifiques à leur industrie et SkyITup SARL est très compétent avec un grand nombre d\'entre elles et si nous ne sommes pas familiers, nous collaborerons avec un expert en logiciels ou apprendrons la technologie afin de pouvoir aider à la soutenir.',
+        'content1' => 'L\'équipe des services Consulting de SkyITup saisit chaque opportunité avec une base approfondie dans la formation aux meilleures pratiques et les méthodologies. Notre approche axée sur l\'objectivité et les résultats offre de véritables solutions de travail en matière de conseil en technologie digitale. De nombreuses industries ont des applications spécifiques à leur industrie et SkyITup est très compétent avec un grand nombre d\'entre elles et si nous ne sommes pas familiers, nous collaborerons avec un expert en logiciels ou apprendrons la technologie afin de pouvoir aider à la soutenir.',
         'title2' => 'Solutions Numériques et Logiciels',
-        'content2_1' => 'SkyITUp SARL est doté de consultants hautement qualifiés. Chacun sert de point de contact unique pour tous vos besoins logiciels. L\'achat du bon logiciel peut bénéficier à votre entreprise de plusieurs façons. Votre sélection de logiciels d\'entreprise est essentielle à votre succès global. Il existe de nombreux produits qui peuvent facilement réduire le temps nécessaire pour effectuer des tâches intimidantes, ce qui vous aidera à optimiser votre temps et économiser de l\'argent ; et de le consacrer à des questions plus importantes.',
+        'content2_1' => 'SkyITUp est doté de consultants hautement qualifiés. Chacun sert de point de contact unique pour tous vos besoins logiciels. L\'achat du bon logiciel peut bénéficier à votre entreprise de plusieurs façons. Votre sélection de logiciels d\'entreprise est essentielle à votre succès global. Il existe de nombreux produits qui peuvent facilement réduire le temps nécessaire pour effectuer des tâches intimidantes, ce qui vous aidera à optimiser votre temps et économiser de l\'argent ; et de le consacrer à des questions plus importantes.',
         'content2_2' => 'Nous offrons non seulement les meilleurs prix disponibles, mais vous ferez l\'expérience d\'un service à la clientèle exceptionnel.',
         'content2_3' => [
             'text' => 'Nous avons un portefeuille varié se résumant comme suit :',
@@ -168,16 +168,16 @@ return [
                 'inner_item8' => 'Microsoft Project (Project Management).',
             ],
             'item3' => [
-                'text' => 'IT security :',
-                'inner_item1' => 'Computer security awareness;',
-                'inner_item2' => 'Cybercriminality.'
+                'text' => 'Sécurité Informatique :',
+                'inner_item1' => 'Sensibilisation à la sécurité informatique ;',
+                'inner_item2' => 'Cybercriminalité.'
             ],
         ],
         'title5' => 'Service d\'Assistance',
-        'content5_1' => 'SkyITup SARL a plus de 30 ans d\'expérience dans la gestion et le soutien des réseaux informatiques pour les petites et moyennes entreprises.',
         'inner_title5' => 'Nous sommes là pour vous aider',
-        'content5_2' => 'Les services d\'assistance informatique de SkyITup SARL sont composés de professionnels de l\'informatique certifiés et sont disponibles pour vous aider par téléphone, par e-mail ou sur notre portail Web sécurisé. SkyITup SARL offre un service de support informatique d\'entreprise de première classe et des services de surveillance de réseau à distance.',
-        'content5_3' => 'Nos services d\'assistance informatique garantissent que vos systèmes et applications informatiques critiques sont toujours opérationnels et que tous les problèmes techniques sont résolus rapidement et avec précision par des techniciens compétents et serviables. Qu\'il s\'agisse de problèmes d\'impression, de problèmes de connectivité, de virus, de synchronisation des périphériques et plus encore, les experts de SkyITup SARL peuvent vous aider.'
+        'content5_1' => 'SkyITup a plus de 30 ans d\'expérience dans la gestion et le soutien des réseaux informatiques pour les petites et moyennes entreprises.',
+        'content5_2' => 'Nos services d\'assistance informatique sont composés de professionnels de l\'informatique certifiés et sont disponibles pour vous aider par téléphone, par e-mail ou sur notre portail Web sécurisé. SkyITup offre un service de support informatique d\'entreprise de première classe et des services de surveillance de réseau à distance.',
+        'content5_3' => 'Nos services d\'assistance informatique garantissent que vos systèmes et applications informatiques critiques sont toujours opérationnels et que tous les problèmes techniques sont résolus rapidement et avec précision par des techniciens compétents et serviables. Qu\'il s\'agisse de problèmes d\'impression, de problèmes de connectivité, de virus, de synchronisation des périphériques et plus encore, les experts de SkyITup peuvent vous aider.'
     ],
 
     // Realization

@@ -4,7 +4,7 @@ return [
     // Miscellaneous
     'welcome' => 'Welcome',
     'description' => 'Consulting Approach focused on objectivity and results. Offers real work solutions in digital technology consulting. Contact us. Contractors. Digital solutions and software. Implementation of software and organizational solutions dedicated to the activities of our customers. Software. Material Services. Tailor our procurement process to your needs and save time',
-    'llc' => 'LLC',
+    'llc' => '',
     'schedule' => 'Schedule:',
     'address' => 'Address',
     'phone' => 'Phone',
@@ -15,7 +15,7 @@ return [
     'read_more' => 'Read more',
     'details' => 'Details',
     'all_right_reserved' => 'All right reserved',
-    'company_description' => 'SkyITup LLC is a Digital Services Company based in Kinshasa.',
+    'company_description' => 'SkyITup is a Digital Services Company based in Kinshasa.',
     'company_address' => '25, De l\'Equateur Street, Gombe Area, MK Tower Building, level 2, local 202',
 
     // Menu
@@ -65,7 +65,7 @@ return [
             'paragraph2' => 'The social and economic impact of digitalization and security remains and will remain paramount in the micro and macroeconomic environments impacting good governance.',
             'paragraph3' => 'Sustainability and the creation of values and the improvement of the living conditions of all humanity.',
             'paragraph4' => 'The acquisition of knowledge to use digital tools is becoming and will become more and more mandatory in organizations and institutions, both public and private.',
-            'paragraph5' => 'SKY IT UP SARL is passionate about providing you with the best tools, platforms to drive/direct your business and institutions in a viable way.',
+            'paragraph5' => 'SKY IT UP is passionate about providing you with the best tools, platforms to drive/direct your business and institutions in a viable way.',
             'paragraph6' => 'Our rich and long experience in leadership and in management tools (guarantees you) meets all your needs.',
             'paragraph7' => 'Concerned about seeing you emerge in your various fields, Sky it up is the solution you need for the success of your business.',
             'paragraph8' => 'We are delighted to have you connected to our website, and we are available to answer all your concerns.'
@@ -77,7 +77,7 @@ return [
         'about_mission_description' => 'Our mission is to empower any person or organization to produce more in record time.',
         'about_ambitions' => 'Ambitions',
         'about_ambitions_title' => 'Our ambitions',
-        'about_ambitions_description' => 'SKYITUP LLC has the ambition to continue in the improvement of the environment, the social, the economy of the population and the governance by offering digital transformation solutions which allow the elevation of the socio-economic quality of the world and population.',
+        'about_ambitions_description' => 'SKYITUP has the ambition to continue in the improvement of the environment, the social, the economy of the population and the governance by offering digital transformation solutions which allow the elevation of the socio-economic quality of the world and population.',
         'about_values' => 'Values',
         'about_values_title' => 'Our values',
         'about_values_list' => [
@@ -120,7 +120,7 @@ return [
         'diploma' => 'Diploma and training',
         'expertise' => 'Expertise',
         'work_countries' => 'Countries of work',
-        'about_content1' => 'SKYITUP LLC a Digital Services Company, based in Kinshasa, founded and managed by a team of professionals with long experience in international leadership and mainly in the African continent in new information and communication technologies.',
+        'about_content1' => 'SKYITUP a Digital Services Company, based in Kinshasa, founded and managed by a team of professionals with long experience in international leadership and mainly in the African continent in new information and communication technologies.',
         'about_content2' => 'We offer and provide a rich portfolio of Intelligent solutions adapted to the socio-economic environment and entities for better added value.',
     ],
 
@@ -130,31 +130,31 @@ return [
         'big_title_1' => 'Our',
         'big_title_2' => 'services',
         'title1' => 'Consulting Service',
-        'content1' => 'SkyITup LLC\'s Consulting Services team seizes every opportunity with a deep foundation in best practice training and methodologies. Our objective and results-oriented approach offers real working solutions in digital technology consulting. Many industries have applications specific to their industry and SkyITup LLC is very knowledgeable with many of them and if we are unfamiliar we will work with a software expert or learn the technology so we can help support it .',
+        'content1' => 'SkyITup team possess more than 30 years of experience in the management, implementation of ERP projects , IT infrastructure projects  and support for large, medium and small companies as well as public and non-governmental institutions. We are willing to advise our customers in solving their problem.',
         'title2' => 'Digital Solutions and Software',
-        'content2_1' => 'SkyITUp SARL is staffed with highly qualified consultants. Each serves as a single point of contact for all your software needs. Buying the right software can benefit your business in several ways. Your business software selection is critical to your overall success. There are many products that can easily reduce the time it takes to complete daunting tasks, which will help you optimize your time and save money; and devote it to more important matters.',
+        'content2_1' => 'SkyITUp is staffed with highly qualified consultants. procuring the right software can benefit your business in several ways. Your business software selection is critical to your overall success. There are many smart solutions that can significantly increase the productivity and efficiency of your organization. this will allow you to make significant savings and therefore a sustainable added value to customers, shareholders and the socio-economic environment.',
         'content2_2' => 'We not only offer the best prices available, but you will experience exceptional customer service.',
         'content2_3' => [
             'text' => 'We have a varied portfolio which can be summarized as follows:',
-            'item1' => 'Design, software development specialized on measures;',
+            'item1' => 'Design, develop customized software solution that satisfy your business needs;',
             'item2' => 'Design, development of a website according to international standards;',
-            'item3' => 'Human Resources management software (full cycle from hiring to end-of-career; including appraisals, staff development, promotion, payroll and other benefits management);',
-            'item4' => 'OHADA financial and accounting software integrated with purchasing, invoicing, stock, electronic approvals etc. ;',
+            'item3' => 'End to End Human Resources management software (full cycle from hiring to end of career including evaluations, staff development, promotion, payroll and other benefits management);',
+            'item4' => 'OHADA financial and accounting software integrated with purchasing, invoicing, stock, electronic approvals etc.;',
             'item5' => 'Physical and electronic security software (electronic entry-exit management, surveillance camera;',
-            'item6' => 'Electronic archiving or saving of documents.'
+            'item6' => 'Archiving or electronic backup of documents.'
         ],
         'title3' => 'IT infrastructure',
         'content3_1' => [
-            'inner_title1' => 'On the hardware level',
-            'content1' => 'Our teams are vocalizing to offer you our innovative services on materials and equipment including the non-exhaustive list below: Servers, Computers, Scanners, Photocopiers, Printers, Switch, Hub, Router, Wifi Router, Data Centre, Wiring, Points Logic, Corrugated Sockets, Personal Inverters, Central Inverters, Internet of Things Ido or IoT, Video Surveillance Camera, VoIP - Business Telephony, Emergency Power Source (Solar Panels).',
-            'inner_title2' => 'On the Networking level (computer networks)',
-            'content2' => 'With regard to the computer network, our experts are ready to assist and advise on the choice of solutions according to the current standard. Below is a non-exhaustive list: Internet connection, Domain, number of email addresses, number of websites, Domain provider and subscription (Terms of payment and contract), Wi-Fi routers.',
-            'inner_title3' => 'On the security level',
-            'content3' => 'Below is a non-exhaustive list: Firewall, Intranet access security, physical security (Access control, Video surveillance), etc.'
+            'inner_title1' => 'Hardware',
+            'content1' => 'Our teams focus on offering you innovative services on materials and equipment including the non-exhaustive list below: Servers, Computers, Scanners, Photocopiers, Printers, Switch, Hub, Router, Wi-Fi Router, Data Centre, Wiring, Points Logic, Corrugated Sockets, Personal Inverters, Central Inverters, Internet of Things Ido or IoT, Video Surveillance Camera, VoIP - Business Telephony, Emergency Power Source (Solar Panels).',
+            'inner_title2' => 'Network (computer networks)',
+            'content2' => 'With regard to the computer network, our experts are ready to assist you and advise you on the choice of solutions according to the current standard. Below is a non-exhaustive list: Internet connection, Domain, number of email addresses, number of websites, Domain provider and subscription (Terms of payment and contract), Wi-Fi routers.',
+            'inner_title3' => 'Security',
+            'content3' => 'Our experts follow the evolution of security solutions and are ready to assist you in updating and implementing computer security tools. Here is the non-exhaustive list: Firewall, Intranet access security, physical security (Access control, Video surveillance), etc.'
         ],
         'title4' => 'Digital Transformation Training',
         'content4' => [
-            'text' => 'Our training courses are based on your needs and aim to raise the quality of your human resources in digital transformation and infrastructure.',
+            'text' => 'Our training courses are based on your needs, and aim to raise the quality of your organization in digital transformation and infrastructure.',
             'item1' => 'Business management software',
             'item2' => [
                 'text' => 'Microsoft Office 365 with the following modules:',
@@ -168,16 +168,16 @@ return [
                 'inner_item8' => 'Microsoft Project (Gestion de projets).',
             ],
             'item3' => [
-                'text' => 'Sécurité Informatique :',
-                'inner_item1' => 'Sensibilisation à la sécurité informatique ;',
-                'inner_item2' => 'Cybercriminalité.'
+                'text' => 'IT security :',
+                'inner_item1' => 'Computer security awareness;',
+                'inner_item2' => 'Cybercriminality.'
             ],
         ],
         'title5' => 'Assistance Service',
-        'content5_1' => 'SkyITup LLC has more than 30 years of experience in managing and supporting computer networks for small and medium-sized businesses.',
         'inner_title5' => 'We are here to help you',
-        'content5_2' => 'SkyITup LLC\'s IT Support Services are staffed by certified IT professionals and are available to assist you by phone, email or through our secure web portal. SkyITup LLC offers first class enterprise IT support service and remote network monitoring services.',
-        'content5_3' => 'Our IT support services ensure that your critical IT systems and applications are always operational and that any technical issues are resolved quickly and accurately by knowledgeable and helpful technicians. Whether it\'s printing issues, connectivity issues, viruses, device synchronization and more, the experts at SkyITup LLC can help.'
+        'content5_1' => 'SkyITup has more than 30 years of experience in managing and supporting computer networks for small and medium-sized businesses.',
+        'content5_2' => 'Our IT Support Services are staffed by certified IT professionals and are available to assist you by phone, email or through our secure web portal. SkyITup offers first class enterprise IT support service and remote network monitoring services.',
+        'content5_3' => 'Our IT Support Services ensure that your critical IT systems and applications are always operational and that any technical issues are resolved quickly and accurately by knowledgeable and helpful technicians. Whether it\'s printing issues, connectivity issues, viruses, device synchronization and more, the experts at SkyITup can help.'
     ],
 
     // Realization

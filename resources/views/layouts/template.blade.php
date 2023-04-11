@@ -72,7 +72,7 @@
                 <!-- Modal content-->
                 <div class="modal-content rounded-block">
                     <div class="modal-header border-0">
-                        <h1 class="h1 m-0 pt-4 pb-2 px-4 font-weight-bold text-uppercase">@lang('info.home.welcome_word.title')</h1>
+                        <h1 class="h1 m-0 pt-4 pb-2 px-4 font-weight-bold text-uppercase" style="color: black;">@lang('info.home.welcome_word.title')</h1>
                         <button type="button" class="close px-2 py-1 mt-1 mr-1" data-dismiss="modal" style="font-size: 3rem;">&times;</button>
                     </div>
                     <div class="modal-body px-4">
