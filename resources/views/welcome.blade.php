@@ -82,7 +82,7 @@
         <!-- slider area end -->
 
         <!-- welcome words area start -->
-        <div class="course-area py-5 my-5">
+        <div class="course-area pt-5 my-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-12 mx-auto">
@@ -101,7 +101,8 @@
                         <p class="mb-4">@lang('info.home.welcome_word.paragraph5')</p>
                         <p class="mb-4">@lang('info.home.welcome_word.paragraph6')</p>
                         <p class="mb-4">@lang('info.home.welcome_word.paragraph7')</p>
-                        <p class="mb-4">@lang('info.home.welcome_word.paragraph8')</p>
+                        <p class="mb-5">@lang('info.home.welcome_word.paragraph8')</p>
+                        <p class="mb-0 font-weight-bold" style="color: #555;">Alphonse-Willy Ngana Mabiala, CEO</p>
                     </div>
                 </div>
             </div>

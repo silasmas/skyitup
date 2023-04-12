@@ -90,7 +90,7 @@ return [
         'team_title' => 'Notre équipe',
         'team_title_1' => 'Notre',
         'team_title_2' => 'équipe',
-        'team_subtitle' => 'Leadership',
+        'team_subtitle' => 'Management',
         'team_other_members' => 'Autres membres',
         // Contact
         'contact_title' => 'Contact',
