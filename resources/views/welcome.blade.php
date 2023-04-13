@@ -116,7 +116,7 @@
                     <div class="col-12">
                         <div class="section-title text-center">
                             <span class="text-uppercase">@lang('info.home.team_title')</span>
-                            <h2>@lang('info.home.team_subtitle')</h2>
+                            <h2>@lang('info.home.team_subtitle_1')</h2>
                         </div>
                     </div>
                 </div>
@@ -126,6 +126,9 @@
                         <div class="row">
     @foreach ($json_result as $team)
                             <div class="col-lg-6 col-sm-6 col-12 mx-auto">
+        @if ($team->names == 'Sarah Kalala')
+                                <h2 class="mb-5 text-center">@lang('info.home.team_subtitle_2')</h2>
+        @endif
                                 <div class="card mb-5 rounded-block overflow-hidden">
                                     <img src="{{ asset($team->picture) }}" alt="image">
                                     <div class="card-body text-center p-25">
