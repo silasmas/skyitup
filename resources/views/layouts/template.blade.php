@@ -219,7 +219,7 @@
                                 </div>
                                 <div class="address">
                                     <h6><i class="fa fa-envelope mr-3"></i> @lang('info.email')</h6>
-                                    <p>contact@skyitupsarl.com</p>
+                                    <p>contact@skyitupsas.com</p>
                                 </div>
                                 <ul class="social">
                                     <li class="ml-3"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
