@@ -35,12 +35,12 @@
                                     <p style="text-align: justify;">{{ $asset->asset3 }}</p>
                                     <p style="text-align: justify;">{{ $asset->asset4->content1 }}</p>
                                     <ul>
-                                        <li>{{ $asset->asset4->list_item_1 }}</li>
-                                        <li>{{ $asset->asset4->list_item_2 }}</li>
-                                        <li>{{ $asset->asset4->list_item_3 }}</li>
-                                        <li>{{ $asset->asset4->list_item_4 }}</li>
-                                        <li>{{ $asset->asset4->list_item_5 }}</li>
-                                        <li>{{ $asset->asset4->list_item_6 }}</li>
+                                        <li class="mb-3">{{ $asset->asset4->list_item_1 }}</li>
+                                        <li class="mb-3">{{ $asset->asset4->list_item_2 }}</li>
+                                        <li class="mb-3">{{ $asset->asset4->list_item_3 }}</li>
+                                        <li class="mb-3">{{ $asset->asset4->list_item_4 }}</li>
+                                        <li class="mb-3">{{ $asset->asset4->list_item_5 }}</li>
+                                        <li class="mb-3">{{ $asset->asset4->list_item_6 }}</li>
                                     </ul>
                                     <p style="text-align: justify;">{{ $asset->asset4->content2 }}</p>
     @endforeach
@@ -64,7 +64,7 @@
                                     <ul class="p-0"></ul>
             @if ($exp->tasks != null)
                 @foreach ($exp->tasks as $task)
-                                        <li>{{ $task->task }}</li>
+                                        <li class="mb-3">{{ $task->task }}</li>
                 @endforeach
             @endif
         @endforeach
