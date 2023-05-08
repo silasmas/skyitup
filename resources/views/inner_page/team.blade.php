@@ -37,11 +37,11 @@
         @if ($asset->asset4->list_item_1 != '')
                                     <ul class="pl-5 mb-4">
                                         <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_1 }}</li>
-                                        {{ $asset->asset4->list_item_2 != '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_2 . '</li>' ? : '' }}
-                                        {{ $asset->asset4->list_item_3 != '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_3 . '</li>' ? : '' }}
-                                        {{ $asset->asset4->list_item_4 != '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_4 . '</li>' ? : '' }}
-                                        {{ $asset->asset4->list_item_5 != '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_5 . '</li>' ? : '' }}
-                                        {{ $asset->asset4->list_item_6 != '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_6 . '</li>' ? : '' }}
+                                        {{ $asset->asset4->list_item_2 != '' ? '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_2 . '</li>' : '' }}
+                                        {{ $asset->asset4->list_item_3 != '' ? '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_3 . '</li>' : '' }}
+                                        {{ $asset->asset4->list_item_4 != '' ? '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_4 . '</li>' : '' }}
+                                        {{ $asset->asset4->list_item_5 != '' ? '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_5 . '</li>' : '' }}
+                                        {{ $asset->asset4->list_item_6 != '' ? '<li class="mb-3" style="list-style-type: disc;">' . $asset->asset4->list_item_6 . '</li>' : '' }}
                                     </ul>
         @endif
                                     <p style="text-align: justify;">{{ $asset->asset4->content2 }}</p>
