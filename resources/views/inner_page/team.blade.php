@@ -32,6 +32,19 @@
     @foreach ($member->assets as $asset)
                                     <p style="text-align: justify;">{{ $asset->asset1 }}</p>
                                     <p style="text-align: justify;">{{ $asset->asset2 }}</p>
+                                    <p style="text-align: justify;">{{ $asset->asset3 }}</p>
+                                    <p style="text-align: justify;">{{ $asset->asset4->content1 }}</p>
+                                    <p style="text-align: justify;">
+                                        <ul class="p-0">
+                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_1 }}</li>
+                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_2 }}</li>
+                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_3 }}</li>
+                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_4 }}</li>
+                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_5 }}</li>
+                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_6 }}</li>
+                                        </ul>
+                                    </p>
+                                    <p style="text-align: justify;">{{ $asset->asset3->content2 }}</p>
     @endforeach
                                 </div>
                             </div>
@@ -50,6 +63,12 @@
         @foreach ($member->experience as $exp)
                                     <h5 class="h5-responsive mt-4 mb-2">{{ $exp->company }}</h5>
                                     <p class="m-0">{{ $exp->role }}</p>
+                                    <ul class="p-0"></ul>
+            @if ($exp->tasks != null)
+                @foreach ($exp->tasks as $task)
+                                        <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $task->task }}</li>
+                @endforeach
+            @endif
         @endforeach
                                 </div>
                             </div>
