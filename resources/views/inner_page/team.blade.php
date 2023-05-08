@@ -34,13 +34,13 @@
                                     <p style="text-align: justify;">{{ $asset->asset2 }}</p>
                                     <p style="text-align: justify;">{{ $asset->asset3 }}</p>
                                     <p style="text-align: justify;">{{ $asset->asset4->content1 }}</p>
-                                    <ul>
-                                        <li class="mb-3">{{ $asset->asset4->list_item_1 }}</li>
-                                        <li class="mb-3">{{ $asset->asset4->list_item_2 }}</li>
-                                        <li class="mb-3">{{ $asset->asset4->list_item_3 }}</li>
-                                        <li class="mb-3">{{ $asset->asset4->list_item_4 }}</li>
-                                        <li class="mb-3">{{ $asset->asset4->list_item_5 }}</li>
-                                        <li class="mb-3">{{ $asset->asset4->list_item_6 }}</li>
+                                    <ul class="mb-4">
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_1 }}</li>
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_2 }}</li>
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_3 }}</li>
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_4 }}</li>
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_5 }}</li>
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_6 }}</li>
                                     </ul>
                                     <p style="text-align: justify;">{{ $asset->asset4->content2 }}</p>
     @endforeach
