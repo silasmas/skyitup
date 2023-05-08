@@ -44,7 +44,7 @@
                                             <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_6 }}</li>
                                         </ul>
                                     </p>
-                                    <p style="text-align: justify;">{{ $asset->asset3->content2 }}</p>
+                                    <p style="text-align: justify;">{{ $asset->asset4->content2 }}</p>
     @endforeach
                                 </div>
                             </div>
