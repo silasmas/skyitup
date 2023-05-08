@@ -37,11 +37,21 @@
         @if ($asset->asset4->list_item_1 != '')
                                     <ul class="pl-5 mb-4">
                                         <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_1 }}</li>
-                                        {{ $asset->asset4->list_item_2 != '' ? '&lt;li class="mb-3" style="list-style-type: disc;"&gt;' . $asset->asset4->list_item_2 . '&lt;/li&gt;' : '' }}
-                                        {{ $asset->asset4->list_item_3 != '' ? '&lt;li class="mb-3" style="list-style-type: disc;"&gt;' . $asset->asset4->list_item_3 . '&lt;/li&gt;' : '' }}
-                                        {{ $asset->asset4->list_item_4 != '' ? '&lt;li class="mb-3" style="list-style-type: disc;"&gt;' . $asset->asset4->list_item_4 . '&lt;/li&gt;' : '' }}
-                                        {{ $asset->asset4->list_item_5 != '' ? '&lt;li class="mb-3" style="list-style-type: disc;"&gt;' . $asset->asset4->list_item_5 . '&lt;/li&gt;' : '' }}
-                                        {{ $asset->asset4->list_item_6 != '' ? '&lt;li class="mb-3" style="list-style-type: disc;"&gt;' . $asset->asset4->list_item_6 . '&lt;/li&gt;' : '' }}
+            @if ($asset->asset4->list_item_2 != '')
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_2 }}</li>
+            @endif
+            @if ($asset->asset4->list_item_3 != '')
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_3 }}</li>
+            @endif
+            @if ($asset->asset4->list_item_4 != '')
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_4 }}</li>
+            @endif
+            @if ($asset->asset4->list_item_5 != '')
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_5 }}</li>
+            @endif
+            @if ($asset->asset4->list_item_6 != '')
+                                        <li class="mb-3" style="list-style-type: disc;">{{ $asset->asset4->list_item_6 }}</li>
+            @endif
                                     </ul>
         @endif
                                     <p style="text-align: justify;">{{ $asset->asset4->content2 }}</p>
