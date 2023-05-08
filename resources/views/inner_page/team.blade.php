@@ -34,16 +34,14 @@
                                     <p style="text-align: justify;">{{ $asset->asset2 }}</p>
                                     <p style="text-align: justify;">{{ $asset->asset3 }}</p>
                                     <p style="text-align: justify;">{{ $asset->asset4->content1 }}</p>
-                                    <p style="text-align: justify;">
-                                        <ul class="p-0">
-                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_1 }}</li>
-                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_2 }}</li>
-                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_3 }}</li>
-                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_4 }}</li>
-                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_5 }}</li>
-                                            <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $asset->asset4->list_item_6 }}</li>
-                                        </ul>
-                                    </p>
+                                    <ul>
+                                        <li>{{ $asset->asset4->list_item_1 }}</li>
+                                        <li>{{ $asset->asset4->list_item_2 }}</li>
+                                        <li>{{ $asset->asset4->list_item_3 }}</li>
+                                        <li>{{ $asset->asset4->list_item_4 }}</li>
+                                        <li>{{ $asset->asset4->list_item_5 }}</li>
+                                        <li>{{ $asset->asset4->list_item_6 }}</li>
+                                    </ul>
                                     <p style="text-align: justify;">{{ $asset->asset4->content2 }}</p>
     @endforeach
                                 </div>
@@ -66,7 +64,7 @@
                                     <ul class="p-0"></ul>
             @if ($exp->tasks != null)
                 @foreach ($exp->tasks as $task)
-                                        <li><i class="fa fa-angle-right me-2 green-text-1"></i>{{ $task->task }}</li>
+                                        <li>{{ $task->task }}</li>
                 @endforeach
             @endif
         @endforeach
