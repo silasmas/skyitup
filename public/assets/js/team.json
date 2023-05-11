@@ -7,6 +7,7 @@
         "role" : "Cofondateur & Directeur General",
         "facebook" : "#alphonsewillyngana",
         "twitter" : "#alphonsewillyngana",
+        "linkedin" : "https://www.linkedin.com/in/a-willy-ngana-mabiala-6b54267",
         "assets" :
         [
             {
@@ -147,8 +148,9 @@
         "id" : 2,
         "names" : "René Kungana Kola",
         "role" : "Directeur de Transformation Digitale",
-        "facebook" : "https://www.facebook.com/rene.k.kola",
+        "facebook" : "https://www.facebook.com/rene.k.kola?mibextid=LQQJ4d",
         "twitter" : "https://twitter.com/KunganaKolaRene",
+        "linkedin" : "https://www.linkedin.com/in/rene-kungana-kola-28682097",
         "assets" :
         [
             {
@@ -272,8 +274,10 @@
         "id" : 3,
         "names" : "Sarah Kalala",
         "role" : "Marketing & Communication",
-        "facebook" : "#sarahkalala",
-        "twitter" : "#sarahkalala",
+        // "facebook" : "#sarahkalala",
+        // "twitter" : "#sarahkalala",
+        "instagram" : "https://instagram.com/sara.kalala.14?igshid=NTc4MTIwNjQ2YQ==",
+        "linkedin" : "https://www.linkedin.com/in/sarah-kalala-275908167",
         "assets" :
         [
             {
@@ -321,6 +325,7 @@
         "role" : "Co-founder & Chief Executive officier",
         "facebook" : "#alphonsewillyngana",
         "twitter" : "#alphonsewillyngana",
+        "linkedin" : "https://www.linkedin.com/in/a-willy-ngana-mabiala-6b54267",
         "assets" :
         [
             {
@@ -461,8 +466,9 @@
         "id" : 2,
         "names" : "René Kungana Kola",
         "role" : "Transformation Digital Director",
-        "facebook" : "https://www.facebook.com/rene.k.kola",
+        "facebook" : "https://www.facebook.com/rene.k.kola?mibextid=LQQJ4d",
         "twitter" : "https://twitter.com/KunganaKolaRene",
+        "linkedin" : "https://www.linkedin.com/in/rene-kungana-kola-28682097",
         "assets" :
         [
             {
@@ -586,8 +592,9 @@
         "id" : 3,
         "names" : "Sarah Kalala",
         "role" : "Marketing & Communication",
-        "facebook" : "#sarahkalala",
-        "twitter" : "#sarahkalala",
+        // "facebook" : "#sarahkalala",
+        "instagram" : "https://instagram.com/sara.kalala.14?igshid=NTc4MTIwNjQ2YQ==",
+        "linkedin" : "https://www.linkedin.com/in/sarah-kalala-275908167",
         "assets" :
         [
             {
