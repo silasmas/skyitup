@@ -135,10 +135,10 @@
                                         <h3 class="card-title mb-4">{{ $team->names }}</h3>
                                         <span class="primary-color d-block mb-3">{{ $team->role }}</span>
                                         <ul class="list-inline">
-                                            <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
-                                            <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
-                                            <li><a href="{{ $team->instagram }}"><i class="fa fa-instagram" style="font-size: 2rem;"></i></a></li>
-                                            <li><a href="{{ $team->linkedin }}"><i class="fa fa-linkedin" style="font-size: 2rem;"></i></a></li>
+                                            <li class="{{ $team->facebook==""?'hidden':'' }}"><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
+                                            <li {{ $team->twitter==""?'hidden':'' }}><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                            <li {{ $team->instagram==""?'hidden':'' }}><a href="{{ $team->instagram }}"><i class="fa fa-instagram" style="font-size: 2rem;"></i></a></li>
+                                            <li {{ $team->linkedin==""?'hidden':'' }}><a href="{{ $team->linkedin }}"><i class="fa fa-linkedin" style="font-size: 2rem;"></i></a></li>
                                             <a href="{{ route('team.member', ['member_id' => $team->id]) }}" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
                                         </ul>
                                     </div>
