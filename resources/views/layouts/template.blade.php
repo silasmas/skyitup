@@ -300,7 +300,7 @@
     <script src="{{ asset('assets/js/jquery.slicknav.min.js') }}"></script>
     <script src="{{ asset('assets/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
-    <<<<<<< Updated upstream @if (Route::current()->getName() == 'home')
+    @if (Route::current()->getName() == 'home')
         <script type="text/javascript">
             $(function () {
                 /*================================
@@ -356,7 +356,7 @@
         =======
 
         <script async src='https://stackwhats.com/pixel/b3ae11e264f428fd1162952b1a0906'></script>
-        >>>>>>> Stashed changes
+
 </body>
 
 </html>
