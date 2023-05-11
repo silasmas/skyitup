@@ -262,7 +262,7 @@
         ],
         "work_countries" : [
             {
-                "region" : "Afrique (Centrale, Occidentale et Orientale)",
+                "region" : "Afrique",
                 "countries" : "RD Congo, Nigéria, Tchad, Burundi, Rwanda, Sierra-Leone, Ethiopie, Côte d'ivoire"
             }
         ],
@@ -576,7 +576,7 @@
         ],
         "work_countries" : [
             {
-                "region" : "Africa (Central, West and East)",
+                "region" : "Africa",
                 "countries" : "DR Congo, Nigeria, Chad, Burundi, Rwanda, Sierra-Leone, Ethiopia, Ivory Coast"
             }
         ],
