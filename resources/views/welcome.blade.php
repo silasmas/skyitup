@@ -137,6 +137,8 @@
                                         <ul class="list-inline">
                                             <li><a href="{{ $team->facebook }}"><i class="fa fa-facebook" style="font-size: 2rem;"></i></a></li>
                                             <li><a href="{{ $team->twitter }}"><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
+                                            <li><a href="{{ $team->instagram }}"><i class="fa fa-instagram" style="font-size: 2rem;"></i></a></li>
+                                            <li><a href="{{ $team->linkedin }}"><i class="fa fa-linkedin" style="font-size: 2rem;"></i></a></li>
                                             <a href="{{ route('team.member', ['member_id' => $team->id]) }}" class="btn btn-primary btn-round btn-sm team-member"> @lang('info.details')</a>
                                         </ul>
                                     </div>
@@ -256,7 +258,9 @@
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <img src="{{ asset('assets/img/partners/partner-1.png') }}" alt="image" style="width: 100%">
+                                <a href="https://www.sysinfocom-kin.fr/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/img/partners/partner-1.png') }}" alt="image" style="width: 100%">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -274,7 +278,7 @@
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <a href="https://osiyatech.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
                                     <img src="{{ asset('assets/img/partners/partner-3.png') }}" alt="image" style="width: 100%">
                                 </a>
                             </div>
@@ -284,7 +288,7 @@
                     <div class="col-lg-2 col-sm-3 col-6 mx-auto">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <a href="https://osiyatech.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
                                     <img src="{{ asset('assets/img/partners/partner-4.png') }}" alt="image" style="width: 100%">
                                 </a>
                             </div>
