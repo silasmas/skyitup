@@ -152,20 +152,20 @@
         "assets" :
         [
             {
-                "asset1" : "KUNGANA KOLA René possède plus de 30 ans d'expérience dans la transformation digitale dans la société Heineken International, principalement dans le pilotage d’implémentation des projets des systèmes d'information de gestion (ERP – Entreprise Resource Planning ou Progiciel de gestion intégré) et le développement du Business en Afrique. Il parle couramment le Français et l’Anglais et, il a vécu et travaillé dans des nombreux pays d'Afrique, tels que le RD Congo, Nigeria, l'Éthiopie, la Sierra Leone, le Rwanda, le Burundi, la Côte d'Ivoire et le Tchad.",
-                "asset2" : "Dans sa carrière, il a une forte expérience dans l’implémentation des progiciels (1) SAP- Human Resource Success factor, (2) SAGE – Paie & Gestion du personnel, (3) Microsoft Dynamics Navision : Achat, Vente, Stock, Fabrication et contrôle qualité, Gestion des équipements, Comptabilité & Finance. (4) Odoo Entreprise : Achat, Vente, Stock, Production, Gestion des équipements, Comptabilité & Finance, Gestion du personnel, etc.",
-                "asset3" : "Il a exercé entre autres (1) la fonction de consultant SAP MyHR et SAGE Paie de 2019 à 2021 (2) le poste de Senior IT Project Manager depuis mars 2017. Avant ce poste il a été Chef de Project Finance et Développement à Heineken Sierra Leone Brewery en 2016, il a conduit avec succès l’amélioration de la gestion, les Méthodes et Procédures et l’implémentation Microsoft Dynamics Navision 2013 et leurs outils de reporting au sein de cette l'entreprise. Il a assisté et formé les employés dans la mise en œuvre de l’exploitation l’informatique et dans l’organisation des Finances.",
+                "asset1" : "KUNGANA KOLA René possède plus de 30 ans d'expérience dans la transformation digitale dans la société Heineken International, principalement dans le pilotage d'implémentation des projets des systèmes d'information de gestion (ERP – Entreprise Resource Planning ou Progiciel de gestion intégré) et le développement du Business en Afrique. Il parle couramment le Français et l'Anglais et, il a vécu et travaillé dans des nombreux pays d'Afrique, tels que le RD Congo, Nigeria, l'Éthiopie, la Sierra Leone, le Rwanda, le Burundi, la Côte d'Ivoire et le Tchad.",
+                "asset2" : "Dans sa carrière, il a une forte expérience dans l'implémentation des progiciels (1) SAP- Human Resource Success factor, (2) SAGE – Paie & Gestion du personnel, (3) Microsoft Dynamics Navision : Achat, Vente, Stock, Fabrication et contrôle qualité, Gestion des équipements, Comptabilité & Finance. (4) Odoo Entreprise : Achat, Vente, Stock, Production, Gestion des équipements, Comptabilité & Finance, Gestion du personnel, etc.",
+                "asset3" : "Il a exercé entre autres (1) la fonction de consultant SAP MyHR et SAGE Paie de 2019 à 2021 (2) le poste de Senior IT Project Manager depuis mars 2017. Avant ce poste il a été Chef de Project Finance et Développement à Heineken Sierra Leone Brewery en 2016, il a conduit avec succès l'amélioration de la gestion, les Méthodes et Procédures et l'implémentation Microsoft Dynamics Navision 2013 et leurs outils de reporting au sein de cette l'entreprise. Il a assisté et formé les employés dans la mise en œuvre de l'exploitation l'informatique et dans l'organisation des Finances.",
                 "asset4" : {
-                    "content1" : "Avant le rôle ci-dessus, il était membre de l'équipe de Heineken change Team, où il a joué un rôle clé durant l’implémentation et la mise en œuvre, et la formation sur Microsoft Dynamics Navision dans Heineken en Afrique sub-saharienne (6 pays) :",
+                    "content1" : "Avant le rôle ci-dessus, il était membre de l'équipe de Heineken change Team, où il a joué un rôle clé durant l'implémentation et la mise en œuvre, et la formation sur Microsoft Dynamics Navision dans Heineken en Afrique sub-saharienne (6 pays) :",
                     "list_item_1" : "Heineken BRARUDI au BURUNDI 2 brasseries ;",
                     "list_item_2" : "Heineken BRALIRWA au RWANDA 2 brasseries ;",
-                    "list_item_3" : "Heineken BRALIMA en RD Congo 6 brasseries et 1 usine d’embouteillage ;",
+                    "list_item_3" : "Heineken BRALIMA en RD Congo 6 brasseries et 1 usine d'embouteillage ;",
                     "list_item_4" : "Brasserie Heineken SIERRA LEONE en Sierra Leone 1 brasserie ;",
                     "list_item_5" : "Heineken Consolidated Breweries Ltd au NIGERIA 6 brasseries ;",
                     "list_item_6" : "Heineken Share Compagnies en Éthiopie 3 brasseries et plusieurs centres de distributions.",
-                    "content2" : "Auparavant, il a été consultant fonctionnel et technique chez Heineken TCHAD, il a conduit avec succès l’implémentation système d’information Heineken Africa (ISHA), et aussi Heineken Standard Accounting System (SCAN – SCOA) au TCHAD et en SIERRA LEONE.",
-                    "content3" : "Avant de rejoindre Heineken en 1988, il a été assistant chef de projet Approvisionnement à l’Office National des transports (ONATRA) en RD Congo, où il a eu la charge de l'Organisation, les Méthodes et Procédures, comptabilité et Calcul prix de revient.",
-                    "content4" : "Il a été également le responsable du planning des effectifs aux Ressources humaine– à l’Office National des Postes et Télécommunication du Zaïre (ONPTZ) en RD Congo."
+                    "content2" : "Auparavant, il a été consultant fonctionnel et technique chez Heineken TCHAD, il a conduit avec succès l'implémentation système d'information Heineken Africa (ISHA), et aussi Heineken Standard Accounting System (SCAN – SCOA) au TCHAD et en SIERRA LEONE.",
+                    "content3" : "Avant de rejoindre Heineken en 1988, il a été assistant chef de projet Approvisionnement à l'Office National des transports (ONATRA) en RD Congo, où il a eu la charge de l'Organisation, les Méthodes et Procédures, comptabilité et Calcul prix de revient.",
+                    "content4" : "Il a été également le responsable du planning des effectifs aux Ressources humaine– à l'Office National des Postes et Télécommunication du Zaïre (ONPTZ) en RD Congo."
                 }
             }
         ],
@@ -197,19 +197,75 @@
                 ]
             },
             {
-                "company" : "",
-                "role" : "Odoo",
+                "company" : "BRALIRWA (RWANDA), BRARUDI (BURUNDI), BRALIMA & BOUKIN (RD CONGO), SIERRA LEONE BREWERY Ltd (SIERRA LEONE), CONSOLIDED BREWERIES Ltd (NIGERIA), HEINEKEN SHARES COMPANY (ETHIOPIE) et BRASIVOIRE (COTE D'IVOIRE)",
+                "role" : "Change Team Lead ERP Microsoft Dynamics Navision en Afrique 6 pays (RWANDA, BURUNDI, RD CONGO, SIERRA LEONE, NIGERIA, Éthiopie et Côte d'Ivoire)",
+                "tasks" : [
+                    {"task" : "Orienter les OpCo's dans l'élaboration des Méthodes et Procédures"},
+                    {"task" : "Assister et former les utilisateurs des Opco's dans la collecte et l'Organisation des Master Data (Données de base de l'entreprise) suivant le standard Heineken"},
+                    {"task" : "Assister et former les utilisateurs des Opco's dans la collecte et l'Organisation des paramètres fixes et variables"},
+                    {"task" : "Mise en œuvre & Déploiement de l'ERP d'Application Heineken Heilite Microsoft Dynamics Navision (Support, Assistance, Formation et résolution des problèmes techniques et Comptables du progiciel)"}
+                ]
+            },
+            {
+                "company" : "Office National des Transport de la RD Congo (ONATRA)",
+                "role" : "Chef de projet assistant de l'organisation et traitement Informatique de l'application des approvisionnements & Prix de revient au CTI ONATRA",
                 "tasks" : null
             },
             {
-                "company" : "",
-                "role" : "Il maitrise aussi le progiciel de ressources humaines SAP-success Factor. Il parle couramment Anglais et Français, il a vécu et travaillé dans nombreux Pays Africains tels que : le Nigeria, l'Ethiopie, la Sierra Leone, le Rwanda, le Burundi, la Côte d'ivoire, et le Tchad.",
+                "company" : "Office National des Postes et Télécommunication du Zaïre (ONPTZ)",
+                "role" : "Responsable du planning des effectifs aux ressources humaines ONPTZ",
                 "tasks" : null
             }
         ],
-        "diplomas" : [],
-        "expertises" : [],
-        "work_countries" : [],
+        "diplomas" : [
+            {
+                "diploma" : "Gradué en Conception et Organisation Informatique à l'Institut Supérieur des Statistiques de Kinshasa République Démocratique du Congo"
+            }
+        ],
+        "expertises" : [
+            {
+            "expertise" : "Gestion des projets ;"
+            },
+            {
+            "expertise" : "Gestion des Ressources Humaines & Calcul de la paie ;"
+            },
+            {
+            "expertise" : "Amélioration des processus métier ;"
+            },
+            {
+            "expertise" : "Méthodes et procédure ;"
+            },
+            {
+            "expertise" : "Contrôle Interne ;"
+            },
+            {
+            "expertise" : "Résolution des problèmes comptables des ERP ou progiciels de gestion intégrés ;"
+            },
+            {
+            "expertise" : "Développement des applications sur mesure Web, mobile, etc. ;"
+            },
+            {
+            "expertise" : "Développement des applications métiers sur mesure ERP ou progiciels de gestion intégrés ;"
+            },
+            {
+            "expertise" : "Implémentation ERP ou progiciels de gestion intégrés (MS Dynamics Nav, SAP, SAGE, Odoo) ;"
+            },
+            {
+            "expertise" : "Migration Comptable (Balance de clôture vers la balance d'ouverture) ;"
+            },
+            {
+            "expertise" : "Codification des données de base de l'entreprise avant migration dans la base de données ;"
+            },
+            {
+            "expertise" : "Migration (importation) des données de base de l'entreprise."
+            }
+        ],
+        "work_countries" : [
+            {
+                "region" : "Afrique (Centrale, Occidentale et Orientale)",
+                "countries" : "RD Congo, Nigéria, Tchad, Burundi, Rwanda, Sierra-Leone, Ethiopie, Côte d'ivoire"
+            }
+        ],
         "picture" : "assets/img/team/member-2.jpg"
         },
         {
@@ -455,14 +511,75 @@
                 ]
             },
             {
-                "company" : "",
-                "role" : "He also masters the SAP-Success Factor human resources software package. He is fluent in English and French, he has lived and worked in many African countries such as: Nigeria, Ethiopia, Sierra Leone, Rwanda, Burundi, Ivory Coast, and Chad.",
+                "company" : "BRALIRWA (RWANDA), BRARUDI (BURUNDI), BRALIMA & BOUKIN (RD CONGO), SIERRA LEONE BREWERY Ltd (SIERRA LEONE), CONSOLIDATED BREWERIES Ltd (NIGERIA), HEINEKEN SHARES COMPANY (ETHIOPIA) and BRASIVOIRE (IVOIRY COAST)",
+                "role" : "Change Team Lead ERP Microsoft Dynamics Navision in Africa 6 countries (RWANDA, BURUNDI, DR CONGO, SIERRA LEONE, NIGERIA, Ethiopia and Ivory Coast)",
+                "tasks" : [
+                    {"task" : "Guide OpCos in the development of Methods and Procedures"},
+                    {"task" : "Assist and train Opco's users in the collection and organization of Master Data (Corporate Basic Data) according to the Heineken standard"},
+                    {"task" : "Assist and train Opco's users in the collection and organization of fixed and variable parameters"},
+                    {"task" : "Implementation & Deployment of the Heineken Heilite Microsoft Dynamics Navision Application ERP (Support, Assistance, Training and resolution of technical and accounting problems of the software package)"}
+                ]
+            },
+            {
+                "company" : "Office National des Transport of the DR Congo (ONATRA)",
+                "role" : "Assistant project manager for the organization and IT processing of the application of supplies & cost price at the CTI ONATRA",
+                "tasks" : null
+            },
+            {
+                "company" : "Office National des Postes et Télécommunication du Zaïre (ONPTZ)",
+                "role" : "Head of workforce planning for human resources ONPTZ",
                 "tasks" : null
             }
         ],
-        "diplomas" : [],
-        "expertises" : [],
-        "work_countries" : [],
+        "diplomas" : [
+            {
+                "diploma" : "Graduated in Computer Design and Organization at the Higher Institute of Statistics of Kinshasa Democratic Republic of Congo"
+            }
+        ],
+        "expertises" : [
+            {
+            "expertise" : "Project management ;"
+            },
+            {
+            "expertise" : "Human Resources Management & Payroll Calculation;"
+            },
+            {
+            "expertise" : "Improving business processes;"
+            },
+            {
+            "expertise" : "Methods and procedure;"
+            },
+            {
+            "expertise" : "Internal control ;"
+            },
+            {
+            "expertise" : "Solving accounting problems of ERP or integrated management software packages;"
+            },
+            {
+            "expertise" : "Development of custom applications for web, mobile, etc. ;"
+            },
+            {
+            "expertise" : "Development of tailor-made business applications ERP or integrated management software packages;"
+            },
+            {
+            "expertise" : "ERP implementation or integrated management software (MS Dynamics Nav, SAP, SAGE, Odoo);"
+            },
+            {
+            "expertise" : "Accounting migration (closing balance to opening balance);"
+            },
+            {
+            "expertise" : "Codification of the company's basic data before migration into the database;"
+            },
+            {
+            "expertise" : "Migration (import) of company master data."
+            }
+        ],
+        "work_countries" : [
+            {
+                "region" : "Africa (Central, West and East)",
+                "countries" : "DR Congo, Nigeria, Chad, Burundi, Rwanda, Sierra-Leone, Ethiopia, Ivory Coast"
+            }
+        ],
         "picture" : "assets/img/team/member-2.jpg"
         },
         {
