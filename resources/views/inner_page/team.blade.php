@@ -29,11 +29,18 @@
                             <h4 class="h4-responsive"><span class="green-text-1 d-block mb-3">{{ $member->role }}</span>
                             </h4>
                             <p>
-                                <a href="{{ $member->facebook }}" class="btn btn-primary rounded-circle mx-3"
+
+                                <a {{ $member->facebook==""?'hidden':'' }} href="{{ $member->facebook }}" class="btn btn-primary rounded-circle mx-3"
                                     style="padding: 1.1rem 1.5rem 0.9rem 1.5rem;"><i class="fa fa-facebook"
                                         style="font-size: 2rem;"></i></a>
-                                <a href="{{ $member->twitter }}" class="btn btn-primary rounded-circle mx-3"
+                                <a {{ $member->twitter==""?'hidden':'' }} href="{{ $member->twitter }}" class="btn btn-primary rounded-circle mx-3"
                                     style="padding: 1.1rem 1.05rem 0.9rem 1.05rem;"><i class="fa fa-twitter"
+                                        style="font-size: 2rem;"></i></a>
+                                <a {{ $member->instagram==""?'hidden':'' }} href="{{ $member->instagram }}" class="btn btn-primary rounded-circle mx-3"
+                                    style="padding: 1.1rem 1.5rem 0.9rem 1.5rem;"><i class="fa fa-instagram"
+                                        style="font-size: 2rem;"></i></a>
+                                <a {{ $member->linkedin==""?'hidden':'' }} href="{{ $member->linkedin }}" class="btn btn-primary rounded-circle mx-3"
+                                    style="padding: 1.1rem 1.05rem 0.9rem 1.05rem;"><i class="fa fa-linkedin"
                                         style="font-size: 2rem;"></i></a>
                             </p>
 
