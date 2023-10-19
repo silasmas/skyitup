@@ -103,6 +103,14 @@
                         <p class="mb-4">@lang('info.home.welcome_word.paragraph7')</p>
                         <p class="mb-5">@lang('info.home.welcome_word.paragraph8')</p>
                         <p class="mb-0 font-weight-bold" style="color: #555;">Alphonse-Willy Ngana Mabiala, CEO</p>
+
+                        <hr class="my-5">
+
+                        <form action="{{ route('download') }}" class="text-sm-right text-center">
+                            <button type="submit" class="btn btn-sm btn-primary px-5 z-depth-0" style="border-radius: 3rem;">
+                                <i class="fa fa-file-pdf-o mr-3" style="vertical-align: -3px; font-size: 2.5rem;"></i>@lang('info.home.download_brochure')
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

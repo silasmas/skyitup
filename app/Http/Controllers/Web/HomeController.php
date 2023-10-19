@@ -7,8 +7,9 @@
 namespace App\Http\Controllers\Web;
 
 use GuzzleHttp\Client;
-use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use App\Http\Controllers\Controller;
 use GuzzleHttp\Exception\ClientException;
 
 class HomeController extends Controller
@@ -222,5 +223,13 @@ class HomeController extends Controller
     public function realization()
     {
         return view('inner_page.realization');
+    }
+
+    /**
+     * @return \Illuminate\Support\Facades\Redirect
+     */
+    public function download()
+    {
+        return Redirect::to(asset('assets/docs/brochure.pdf'));
     }
 }

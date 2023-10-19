@@ -16,7 +16,7 @@ return [
     'details' => 'Details',
     'all_right_reserved' => 'All right reserved',
     'company_description' => 'SkyITup is a Digital Services Company based in Kinshasa.',
-    'company_address' => '25, De l\'Equateur Street, Gombe Area, MK Tower Building, level 2, local 202',
+    'company_address' => '<u>Head office</u>: 25, De l\'Equateur Street, Gombe Area, MK Tower Building, level 2, local 202.<br class="mb-2"><u>Presence in the provinces</u>: Lubumbashi-Goma-Bukavu.',
 
     // Menu
     'menu_home' => 'Home',
@@ -70,6 +70,7 @@ return [
             'paragraph7' => 'Concerned about seeing you emerge in your various fields, Sky it up is the solution you need for the success of your business.',
             'paragraph8' => 'We are delighted to have you connected to our website, and we are available to answer all your concerns.'
         ],
+        'download_brochure' => 'Download our brochure',
         // About
         'about_title' => 'About',
         'about_mission' => 'Mission',

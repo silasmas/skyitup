@@ -16,7 +16,7 @@ return [
     'details' => 'Détails',
     'all_right_reserved' => 'Tous droits réservés',
     'company_description' => 'SkyITup est une Entreprise de Services du Numérique basée à Kinshasa.',
-    'company_address' => '25, Avenue de l\'Equateur, Commune de la Gombe Immeuble MK Tower, 2e niveau, local 202',
+    'company_address' => '<u>Siège social</u> : 25, Avenue de l\'Equateur, Commune de la Gombe Immeuble MK Tower, 2e niveau, local 202.<br class="mb-2"><u>Présence en province</u> : Lubumbashi-Goma-Bukavu.',
 
     // Menu
     'menu_home' => 'Accueil',
@@ -70,6 +70,7 @@ return [
             'paragraph7' => 'Soucieux de vous voir émergé dans vos domaines diverses, Sky it up est la solution dont vous avez besoin pour la réussite de vos business.',
             'paragraph8' => 'Nous sommes ravis de vous savoir connecté à notre site Internet, et nous sommes disponible pour répondre à toutes vos préoccupations.'
         ],
+        'download_brochure' => 'Télécharger notre dépliant',
         // About
         'about_title' => 'A propos',
         'about_mission' => 'Mission',
