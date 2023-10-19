@@ -193,6 +193,7 @@ return [
 
     // Realization
     'realization' => [
+        'link' => 'See details',
         'big_title' => 'Our realizations',
         'big_title_1' => 'Our',
         'big_title_2' => 'realizations',
