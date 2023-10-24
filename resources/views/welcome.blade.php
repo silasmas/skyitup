@@ -146,7 +146,7 @@
                 <div class="row">
                     @foreach ($json_result as $team)
                     <div class="col-lg-6 col-sm-6 col-12 mx-auto">
-                        @if ($team->names == 'Sarah Kalala')
+                        @if ($team->names == 'Sarah Kalala'||$team->names == 'Luminuku Kiasingama Emile')
                         <h2 class="mb-5 text-center">@lang('info.home.team_subtitle_2')</h2>
                         @endif
                         <div class="card mb-5 rounded-block overflow-hidden">
