@@ -640,6 +640,52 @@
         },
         {
         "id" : 3,
+        "names" : "Luminuku Kiasingama Emile",
+        "role" : "Directeur Régional Grand Katanga",
+        "facebook" : "",
+        "twitter" : "",
+        "instagram" : "",
+        "linkedin" : "",
+        "assets" :
+        [
+            {
+                "asset1" : "Luminuku Kiasingama Emile,",
+                "asset2" : "",
+                "asset3" : "",
+                "asset4" : {
+                    "content1" : "",
+                    "list_item_1" : "",
+                    "list_item_2" : "",
+                    "list_item_3" : "",
+                    "list_item_4" : "",
+                    "list_item_5" : "",
+                    "list_item_6" : "",
+                    "content2" : "",
+                    "content3" : "",
+                    "content4" : ""
+                }
+            }
+        ],
+        "experience" :
+        [
+            {
+                "company" : "",
+                "role" : "",
+                "tasks" : null
+            },
+            {
+                "company" : "",
+                "role" : "",
+                "tasks" : null
+            }
+        ],
+        "diplomas" : [],
+        "expertises" : [],
+        "work_countries" : [],
+        "picture" : "assets/img/team/member-4.jpg"
+        },
+        {
+        "id" : 4,
         "names" : "Sarah Kalala",
         "role" : "Marketing & Communication",
         "facebook" : "",
